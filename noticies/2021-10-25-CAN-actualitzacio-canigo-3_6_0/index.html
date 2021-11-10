@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html xml:lang="ca-ES" lang="ca-ES" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+	<title>Canigó. Publicació nova versió 3.6.0</title>
+		<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico" />
+	<link href="/css/master.min.css" rel="stylesheet" type="text/css" />
+	<link href="/css/canigo.css" rel="stylesheet" type="text/css" />
+	<script src="/js/jquery.min.js" type="text/javascript"></script>
+
+	<script>
+		document.write("<meta name=\"titol\" content=\"Canigó. Publicació nova versió 3.6.0\" />");
+		document.write("<meta name=\"description\" content=\"S\x27ha publicat una nova versió de Canigó donant suport a Jdk 11\" />");
+	</script>
+
+	
+
+</head>
+<body class="single">
+	<div class="contenidor unfixed">
+
+				
+
+		<header class="fons_header navbar navbar-default z-index-menu">
+			<div class="container" role="menu">
+				<div class="row clearfix menuNav">
+					<div class="col-md-3 col-xs-3 column visible-xs coloca ">
+						<button type="button" onclick="amunt();" title="Menu"
+							class="navbar-toggle pull-left" data-toggle="collapse"
+							data-target=".navbar-collapse">
+							<span class="sr-only">Toggle navigation</span> <span
+								class="icon-bar"></span> <span class="icon-bar"></span> <span
+								class="icon-bar"></span>
+						</button>
+					</div>
+
+					<div class="col-md-3 col-xs-6 col-offset-2 column visible-xs titol-mobil">
+						
+						<span class="white titol-mobil-destacat">canigo.ctti</span><span class="white">.gencat.cat</span>
+					</div>
+
+					<div class="col-md-3 col-xs-3 column visible-xs coloca1">
+						<button onclick="amunt();" type="button" title="Cerca"
+							class="ico_cerca " data-toggle="collapse" data-target=".dos">
+						</button>
+					</div>
+
+				</div>
+
+				<div class="collapse dos">
+					<div class="shadowBox">
+						<form class="navbar-form navbar-left primer" action="/cercador/" method="get"
+ 						onsubmit="location.href=this.action+'?q='+this.cerca_cap.value; return false;">
+							<div class="form-group">
+								<input type="search" class="form-control" name="q" id="cerca_cap"
+									title="Cerca"
+									placeholder="Cerca" />
+								<button type="button" title="Neteja" class="btn btn-default"></button>
+								<input type="submit" class="ocult" name="Cerca" value="Cerca" />
+							</div>
+						</form>
+					</div>
+				</div>	
+
+				<nav class="collapse navbar-collapse navbar-ex1-collapse ">
+				
+					<div class="row">
+						<div class="col-md-6 col-sm-4 column">
+							<a class="img-responsive logo" title="Generalitat de Catalunya"
+								href="https://ctti.gencat.cat/">gencat.cat</a>
+							<button class="menu_tancar visible-xs collapsed"
+								data-target=".navbar-collapse" data-toggle="collapse"
+								title="Tancar"></button>
+						</div>
+
+						<div class="col-md-6 col-sm-8 column hidden-xs hidden-mg">
+							<form class="navbar-form cercador_vermell hidden-xs pull-right" action="/cercador/"  method="get" onsubmit="location.href=this.action+'?q='+this.cerca2.value; return false;">
+								<div class="form-group">
+									<label class="hidden" for="cerca2">Cerca</label>
+									<input id="cerca2" class="form-control" type="search" 
+									placeholder="Cerca" name="q" title="Cerca">
+									<input class="btn btn-default" type="submit" title="Cerca" value="">
+								</div>
+							</form>
+
+							
+
+						</div>
+
+					</div>
+					<div class="col-xs-12 hidden-xs" id="nomPortal">
+                    	<span class="titol-cap-nou">Centre de Telecomunicacions i Tecnologies de la Informació</span>
+                    </div>					
+					<ul class="nav navbar-nav">
+
+			        	
+
+						<li>
+							<a class="dropdown-toggle" href='/' data-toggle='_dropdown'>Inici</a>
+						</li>
+
+						
+
+						<li>
+							<a class="dropdown-toggle" href='/arqctti' data-toggle='_dropdown'>Arquitectura CTTI</a>
+						</li>
+
+						
+
+						<li>
+							<a class="dropdown-toggle" href='/blog' data-toggle='_dropdown'>Blog</a>
+						</li>
+
+						
+
+						<li>
+							<a class="dropdown-toggle" href='/cloud' data-toggle='_dropdown'>Cloud</a>
+						</li>
+
+						
+
+						<li>
+							<a class="dropdown-toggle" href='/canigo' data-toggle='_dropdown'>Canigó</a>
+						</li>
+
+						
+
+						<li>
+							<a class="dropdown-toggle" href='/sic' data-toggle='_dropdown'>SIC</a>
+						</li>
+
+						
+
+						<li>
+							<a class="dropdown-toggle" href='/sgde' data-toggle='_dropdown'>SGDE</a>
+						</li>
+
+						
+
+						<li>
+							<a class="dropdown-toggle" href='/gicar' data-toggle='_dropdown'>GICAR</a>
+						</li>
+
+						
+
+						<li>
+							<a class="dropdown-toggle" href='/cs' data-toggle='_dropdown'>Centres de Suport</a>
+						</li>
+
+						
+
+						<li>
+							<a class="dropdown-toggle" href='/dadesref' data-toggle='_dropdown'>Gestió Tècnica de Dades</a>
+						</li>
+
+						
+
+					</ul>
+
+				</nav>
+			</div>
+		</header>
+
+
+
+	</div>
+
+	<section class="border-start">
+
+						
+			
+
+			<article class="bgGrey">
+				<div class="container">
+					<div class="row">
+						<div class="capcelera_basica col-sm-12">
+							<div class="capcelera_basica_cont">
+								<ol class="breadcrumb filariana hidden-xs">
+									<li>
+										<a href="/">Inici</a>
+									</li>
+									<li class="breadcrumbs2">
+									
+										<a href="/noticies">
+											
+
+
+
+
+
+
+
+
+
+	Notícies
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+										</a>
+										
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+									
+									</li>
+
+								</ol>
+
+								<h1 class="capcelera_flotant pull-left" data-txt=".title">
+									
+
+										
+											
+
+
+
+
+	Canigó. Publicació nova versió 3.6.0
+
+
+										
+
+									
+								</h1>
+
+								
+									<br />
+									10-11-2021
+								
+
+								
+								
+
+								
+
+								
+
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</article>
+
+			
+
+
+		   <div class="padding-xs container">
+	    	
+	    	   <i><b>Darrera actualització:</b></i> 10-11-2021
+	        
+           </div>
+           
+			<article class="padding-xs padding-sm padding-md contingut">				
+				<div class="container">
+ 		
+					
+				
+
+	
+
+
+					
+
+						
+
+<p>Amb l’alliberament de la <strong>versió 3.6.0 del Framework Canigó</strong> s’assoleix un dels objectius que es persegueix
+des de CS Canigó consistent en proporcionar als desenvolupadors d&rsquo;aplicacions un framework amb les últimes
+versions suportades de Java i Spring, a més de permetre nous paradigmes de programació.</p>
+
+<h2 id="actualització-de-tecnologies-base">Actualització de tecnologies base</h2>
+
+<h3 id="jdk-11">Jdk 11</h3>
+
+<p>El setembre de 2018 Oracle va publicar la versió 11 de Java, la primera versió LTS amb la nova política de sis
+mesos de cicle de suport. Podeu consultar la documentació d&rsquo;aquesta versió, així com les Release Notes, mitjançant el següent enllaç:
+<a href="https://www.oracle.com/technetwork/java/javase/11-relnotes-5012447.html">https://www.oracle.com/technetwork/java/javase/11-relnotes-5012447.html</a>.</p>
+
+<p>Des de CS Canigó, <strong>s&rsquo;ha evolucionat el Framework Canigó perquè passi a treballar amb Jdk 11 nativament</strong>.</p>
+
+<h3 id="spring-5-3">Spring 5.3</h3>
+
+<p>Spring Framework ofereix un model complet de programació i configuració per a solucions empresarials basades en Java.
+El principal objectiu de Spring 5 és proporcionar els nous paradigmes de programació funcional (webflux) i programació reactiva.
+Podeu consultar el llistat de canvis relacionats amb la versió 5.3 de Spring mitjançant el següent enllaç:
+<a href="https://github.com/spring-projects/spring-framework/wiki/What's-New-in-Spring-Framework-5.x#whats-new-in-version-53">https://github.com/spring-projects/spring-framework/wiki/What's-New-in-Spring-Framework-5.x#whats-new-in-version-53</a>.</p>
+
+<h3 id="spring-boot-2-5">Spring Boot 2.5</h3>
+
+<p>Spring Boot, igual que Canigó, proporciona eines pel desenvolupament fàcil d&rsquo;aplicacions empresarials minimitzant la
+configuració necessària. Podeu consultar el llistat de canvis relacionats amb la versió 2.5 de Spring Boot mitjançant
+el següent enllaç: <a href="https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.5-Release-Notes">https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.5-Release-Notes</a>.</p>
+
+<h3 id="integració-amb-serveis-web-soap">Integració amb Serveis Web Soap</h3>
+
+<p>El llenguatge de marcat extensible (XML) ajuda als Serveis Web a intercanviar dades a través d&rsquo;Internet i a la
+Generalitat s&rsquo;utilitza aquest estàndard d&rsquo;intercanvi de dades. A continuació adjuntem el llistat de mòduls d&rsquo;integració
+del Framework Canigó que fan servir Serveis Web Soap:</p>
+
+<ul>
+<li>Avisos i alertes</li>
+<li>DNI</li>
+<li>Enotum</li>
+<li>ICC</li>
+<li>Padró</li>
+<li>Pica</li>
+<li>Aresta (PSGD)</li>
+<li>PSIS</li>
+<li>Sarcat Pica</li>
+<li>Sarcat</li>
+<li>SSC</li>
+<li>Tributs</li>
+</ul>
+
+<p>En aquest sentit, s&rsquo;han actualitzat els clients dels mòduls indicats generant el client amb &lsquo;Apache CXF&rsquo;
+realitzant la transformació d&rsquo;objectes Java a XML i d&rsquo;XML a Java mitjançant &lsquo;JAXB&rsquo;. Apache CXF és un framework complet
+de codi obert per a Serveis Web i els valors més rellevants són:</p>
+
+<ul>
+<li><p>Simplicitat en la creació de clients de Serveis Web</p></li>
+
+<li><p>Alt rendiment amb un mínim d&rsquo;overhead computacional</p></li>
+
+<li><p>Incrustable amb Spring</p></li>
+</ul>
+
+<p>Java Architecture for XML Binding (JAXB) permet assignar classes Java a representacions XML. JAXB és una part
+de la plataforma Java SE, una de les APIs de la plataforma Java EE i és part de la Java Web Services
+Development Pack (JWSDP).</p>
+
+<p>Podeu trobar més informació sobre els <a href="/canigo-documentacio-versions-36/integracio/">mòduls d&rsquo;integració de Canigó 3.6</a>.</p>
+
+<h3 id="swagger">Swagger</h3>
+
+<p>Swagger és utilitzat per a exposar i documentar les API RESTful expressades en format JSON i el Framework
+Canigó proporciona una preconfiguració per a exposar aquests serveis fent ús d&rsquo;aquesta eina.
+S&rsquo;ha actualitzat la versió de Swagger a l&rsquo;última versió compatible amb Canigó 3.6.0 (la versió 2.9.2)
+eliminant la pàgina personalitzada de Canigó i usant tots els seus components de forma nativa.</p>
+
+<h3 id="dependències-i-plugins">Dependències i plugins</h3>
+
+<p>S&rsquo;han actualitzat les versions de les llibreries dependents de Canigó a l&rsquo;última versió compatible. Podeu consultar
+el <a href="/canigo/download/canigo-36/">llistat de dependències i plugins actualitzats</a>.</p>
+
+<h2 id="com-crear-aplicacions-amb-canigó-3-6">Com crear aplicacions amb Canigó 3.6</h2>
+
+<p>Per a crear aplicacions amb Canigó 3.6, CS Canigó proporciona el <a href="/canigo-download-related/plugin-canigo/">Plugin de Canigó</a> per l’Eclipse que permet la creació d&rsquo;aplicacions Canigó amb les bases necessàries.
+Podeu consultar la <a href="/noticies/2021-10-25-CAN-Actualitzacio_archetype_1_7_0_plugin_eclipse_1_8_0/">noticia de l&rsquo;actualització del plugin</a>.</p>
+
+<h2 id="com-migrar-a-canigó-3-6">Com migrar a Canigó 3.6</h2>
+
+<p>Per a poder passar una aplicació de Canigó 3.4 a Canigó 3.6 podeu seguir els passos descrits a
+<a href="/howtos/2021-10-Howto-Actualitzacio_Canigo3_4_Canigo3_6/">Actualització Canigó 3.4 a Canigó 3.6</a>.</p>
+
+<p><br/><br/>
+Per qualsevol dubte relatiu a aquesta nova versió del Framework Canigó us podeu posar en contacte amb el
+CS Canigó al <a href="https://cstd.ctti.gencat.cat/jiracstd/projects/CAN">servei CAN</a> del JIRA CSTD o enviant-nos un
+correu electrònic a la <a href="mailto:oficina-tecnica.canigo.ctti@gencat.cat">bústia del CS Canigó</a>.</p>
+
+
+					
+
+					
+				</div>	
+
+			</article>	
+
+
+	</section>	
+
+		<div class="fons_footer ">
+		<footer class="container center-block shadowBox2">
+			<div class="shadow2"></div>
+			<div class="row footer_tab_ord">
+
+				<div class="footer_tab_bot col-sm-12">
+					<div class="avis_legal">
+
+						<div id="fAvisLegal">
+							<div>
+								<div class="hidden-xs">
+									<a href="https://www.gencat.cat"> <img
+										src="/img/logo_generalitat_gris.png_679097835.png"
+										width="101" height="27" alt="www.gencat.cat"
+										/></a>
+									<p>
+										<a title="Avis legal" href="https://web.gencat.cat/ca/menu-ajuda/ajuda/avis_legal/" target="_self">Avís legal</a>: La &copy; Generalitat de Catalunya permet la reutilització dels continguts i de les dades sempre que se citi la font i la data d'actualització, que no es desnaturalitzi la informació i que no es contradigui amb una llicència específica.
+									</p>
+								</div>
+								<div class="visible-xs avis_legal">
+									<p>
+										<a title="Avis legal" href="https://web.gencat.cat/ca/menu-ajuda/ajuda/avis_legal/" target="_self">Avís legal</a>: La &copy; Generalitat de Catalunya permet la reutilització dels continguts i de les dades sempre que se citi la font i la data d'actualització, que no es desnaturalitzi la informació i que no es contradigui amb una llicència específica.
+									</p>
+								</div>
+								
+								<div class="fi_peu visible-xs">
+									<a title="www.gencat.cat" href="https://www.gencat.cat"> <img
+										src="/img/logo_generalitat_gris.png_679097835.png"
+										width="101" height="27" 
+										alt="www.gencat.cat" /></a> <a class="torna_amunt pull-right"
+										href=" javascript:tornarAmunt();" title="Torna amunt">
+										<p>Torna amunt</p>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+<script src="/js/master.min.js" type="text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+<script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
+<script src="/js/custom.js" type="text/javascript"></script>
+
+
+
+<script type="text/javascript">
+
+if(location.hostname!=="localhost"){
+
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', "UA-59408075-1", 'auto');
+	ga('send', 'pageview', {
+	  	'page': location.pathname + location.search  + location.hash
+	  }
+	);
+
+}
+
+</script>
+
+
+
+
+</body>
+</html>

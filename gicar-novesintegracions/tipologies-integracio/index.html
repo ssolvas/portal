@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html xml:lang="ca-ES" lang="ca-ES" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+	<title>1.- Índex de modalitats d&#39;integració i funcionalitats possibles</title>
+		<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico" />
+	<link href="/css/master.min.css" rel="stylesheet" type="text/css" />
+	<link href="/css/canigo.css" rel="stylesheet" type="text/css" />
+	<script src="/js/jquery.min.js" type="text/javascript"></script>
+
+	<script>
+		document.write("<meta name=\"titol\" content=\"1.- Índex de modalitats d\x27integració i funcionalitats possibles\" />");
+		document.write("<meta name=\"description\" content=\"Índex de Modalitats d\x27integració possibles d\x27autenticació amb GICAR\" />");
+	</script>
+
+	
+
+</head>
+<body class="single">
+	<div class="contenidor unfixed">
+
+				
+
+		<header class="fons_header navbar navbar-default z-index-menu">
+			<div class="container" role="menu">
+				<div class="row clearfix menuNav">
+					<div class="col-md-3 col-xs-3 column visible-xs coloca ">
+						<button type="button" onclick="amunt();" title="Menu"
+							class="navbar-toggle pull-left" data-toggle="collapse"
+							data-target=".navbar-collapse">
+							<span class="sr-only">Toggle navigation</span> <span
+								class="icon-bar"></span> <span class="icon-bar"></span> <span
+								class="icon-bar"></span>
+						</button>
+					</div>
+
+					<div class="col-md-3 col-xs-6 col-offset-2 column visible-xs titol-mobil">
+						
+						<span class="white titol-mobil-destacat">canigo.ctti</span><span class="white">.gencat.cat</span>
+					</div>
+
+					<div class="col-md-3 col-xs-3 column visible-xs coloca1">
+						<button onclick="amunt();" type="button" title="Cerca"
+							class="ico_cerca " data-toggle="collapse" data-target=".dos">
+						</button>
+					</div>
+
+				</div>
+
+				<div class="collapse dos">
+					<div class="shadowBox">
+						<form class="navbar-form navbar-left primer" action="/cercador/" method="get"
+ 						onsubmit="location.href=this.action+'?q='+this.cerca_cap.value; return false;">
+							<div class="form-group">
+								<input type="search" class="form-control" name="q" id="cerca_cap"
+									title="Cerca"
+									placeholder="Cerca" />
+								<button type="button" title="Neteja" class="btn btn-default"></button>
+								<input type="submit" class="ocult" name="Cerca" value="Cerca" />
+							</div>
+						</form>
+					</div>
+				</div>	
+
+				<nav class="collapse navbar-collapse navbar-ex1-collapse ">
+				
+					<div class="row">
+						<div class="col-md-6 col-sm-4 column">
+							<a class="img-responsive logo" title="Generalitat de Catalunya"
+								href="https://ctti.gencat.cat/">gencat.cat</a>
+							<button class="menu_tancar visible-xs collapsed"
+								data-target=".navbar-collapse" data-toggle="collapse"
+								title="Tancar"></button>
+						</div>
+
+						<div class="col-md-6 col-sm-8 column hidden-xs hidden-mg">
+							<form class="navbar-form cercador_vermell hidden-xs pull-right" action="/cercador/"  method="get" onsubmit="location.href=this.action+'?q='+this.cerca2.value; return false;">
+								<div class="form-group">
+									<label class="hidden" for="cerca2">Cerca</label>
+									<input id="cerca2" class="form-control" type="search" 
+									placeholder="Cerca" name="q" title="Cerca">
+									<input class="btn btn-default" type="submit" title="Cerca" value="">
+								</div>
+							</form>
+
+							
+
+						</div>
+
+					</div>
+					<div class="col-xs-12 hidden-xs" id="nomPortal">
+                    	<span class="titol-cap-nou">Centre de Telecomunicacions i Tecnologies de la Informació</span>
+                    </div>					
+					<ul class="nav navbar-nav">
+
+			        	
+
+						<li>
+							<a class="dropdown-toggle" href='/' data-toggle='_dropdown'>Inici</a>
+						</li>
+
+						
+
+						<li>
+							<a class="dropdown-toggle" href='/arqctti' data-toggle='_dropdown'>Arquitectura CTTI</a>
+						</li>
+
+						
+
+						<li>
+							<a class="dropdown-toggle" href='/blog' data-toggle='_dropdown'>Blog</a>
+						</li>
+
+						
+
+						<li>
+							<a class="dropdown-toggle" href='/cloud' data-toggle='_dropdown'>Cloud</a>
+						</li>
+
+						
+
+						<li>
+							<a class="dropdown-toggle" href='/canigo' data-toggle='_dropdown'>Canigó</a>
+						</li>
+
+						
+
+						<li>
+							<a class="dropdown-toggle" href='/sic' data-toggle='_dropdown'>SIC</a>
+						</li>
+
+						
+
+						<li>
+							<a class="dropdown-toggle" href='/sgde' data-toggle='_dropdown'>SGDE</a>
+						</li>
+
+						
+
+						<li>
+							<a class="dropdown-toggle" href='/gicar' data-toggle='_dropdown'>GICAR</a>
+						</li>
+
+						
+
+						<li>
+							<a class="dropdown-toggle" href='/cs' data-toggle='_dropdown'>Centres de Suport</a>
+						</li>
+
+						
+
+						<li>
+							<a class="dropdown-toggle" href='/dadesref' data-toggle='_dropdown'>Gestió Tècnica de Dades</a>
+						</li>
+
+						
+
+					</ul>
+
+				</nav>
+			</div>
+		</header>
+
+
+
+	</div>
+
+	<section class="border-start">
+
+						
+			
+
+			<article class="bgGrey">
+				<div class="container">
+					<div class="row">
+						<div class="capcelera_basica col-sm-12">
+							<div class="capcelera_basica_cont">
+								<ol class="breadcrumb filariana hidden-xs">
+									<li>
+										<a href="/">Inici</a>
+									</li>
+									<li class="breadcrumbs2">
+									
+										<a href="/gicar-novesintegracions">
+											
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+										</a>
+										
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<a href="/gicar/">GICAR</a> </li>
+
+	<li>
+	
+		<a href="/gicar-novesintegracions/">
+	
+
+	Modalitats d'integració possibles a nivell funcional i tècnic
+
+	
+		</a>
+	
+
+
+
+
+
+
+
+
+
+									
+									</li>
+
+								</ol>
+
+								<h1 class="capcelera_flotant pull-left" data-txt=".title">
+									
+
+										
+											
+
+
+
+
+	1.- Índex de modalitats d&#39;integració i funcionalitats possibles
+
+
+										
+
+									
+								</h1>
+
+								
+
+								
+								
+
+								
+
+								
+
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</article>
+
+			
+
+
+		   <div class="padding-xs container">
+	    	
+	    	   <i><b>Darrera actualització:</b></i> 17-08-2021
+	        
+           </div>
+           
+			<article class="padding-xs padding-sm padding-md contingut">				
+				<div class="container">
+ 		
+					
+				
+
+	
+
+
+					
+
+						<p>En aquest apartat es descriuen les diferents modalitats d&rsquo;integració de l&rsquo;autenticació amb GICAR que s&rsquo;ofereixen. En la següent taula es citen les diferents casuístiques d&rsquo;aplicacions que es despleguen a la Generalitat versus la modalitat d&rsquo;integració de l&rsquo;autenticació recomanada.</p>
+
+<p><img src="/related/gicar/mod-autentic-2021.png" alt="Integració Aplicacions GICAR" /></p>
+
+<p>El 1 significa l&rsquo;opció recomanada i el 3 l&rsquo;opció menys recomanada, que només es proposa abordar-la si no és possible abordar les opcions anteriors.</p>
+
+<p>A continuació s&rsquo;exposen de forma resumida les <strong><em>modalitats d&rsquo;integració proposades</em></strong>, i <strong><em>quines funcionalitats es poden aconseguir</em></strong> amb aquestes modalitats:</p>
+
+<p><strong>(*1) Amb la modalitat d’integració per Protocol SAML2</strong>:</p>
+
+<p>Amb aquesta modalitat d&rsquo;integració es poden assolir les següents funcionalitats d’autenticació:</p>
+
+<ul>
+<li><a href="/gicar-novesintegracions-funcionalitats-autenticacio/auth-1-dc/">Autenticació amb Usuari i contrasenya contra el Directori Corporatiu.</a></li>
+<li><a href="/gicar-novesintegracions-funcionalitats-autenticacio/auth-1-dc/">Autenticació amb Certificat amb usuari que estigui al Directori Corporatiu.</a></li>
+<li><a href="/gicar-novesintegracions-funcionalitats-autenticacio/auth-2-certificat/">Autenticació amb Certificat amb usuari que no està al Directori Corporatiu.</a></li>
+<li><a href="/gicar-novesintegracions-funcionalitats-autenticacio/auth-4-passarelagicarvalid/">Autenticació amb la Passarel·la GICAR- Vàlid</a></li>
+<li><a href="/gicar-novesintegracions-funcionalitats-autenticacio/auth-3-EACAT/">Autenticació contra el directori de l’EACAT.</a></li>
+</ul>
+
+<p>Entenem per aquesta modalitat d’integració aquella aplicació que delega el login a GICAR via protocol SAML2. Això inclou les següents possibilitats tècniques d&rsquo;implementació:</p>
+
+<ul>
+<li><strong><a href="/gicar-novesintegracions-tecniques-autenticacio/auth-saml2-1-agent_shibboleth/">Integració a través d&rsquo;Agent de Shibboleth</a></strong>: es disposa d’un frontal Apache o Nginx, a un CPD OnPremise o al Núvol on s’instal·la un agent de Shibboleth. Aquest agent de Shibboleth fa la gestió de tot el protocol SAML2 amb GICAR, i com a resultat proporciona unes capçaleres HTTP d’autenticació a l’aplicació.</li>
+<li><strong><a href="/gicar-novesintegracions-tecniques-autenticacio/auth-saml2-2-out-of-the-box/">Integració d&rsquo;una aplicació que admet SAML out of the box </a></strong>: l’aplicació és capaç de forma nativa de delegar el login a un proveïdor d’autenticació SAML2, sense necessitat d’instal·lar res a banda.</li>
+<li><strong><a href="/gicar-novesintegracions-tecniques-autenticacio/auth-saml2-3-fet-a-mida/">Aplicació feta a mida autenticant via SAML2 sense utilitzar Agent de Shibboleth (Canigó SAML o llibreria de tercers) </a></strong>: una aplicació desenvolupada amb Framework Canigó pot delegar el login a GICAR de forma nativa via SAML2. A una aplicació feta a mida se li pot desplegar una llibreria que implementa SAML2 des del punt de vista d’un SP, i per tant permet delegar-li el login a GICAR de forma directa.</li>
+<li><strong><a href="/gicar-novesintegracions-tecniques-autenticacio/auth-saml2-4-adfs/">Aplicació Microsoft integrada amb GICAR via ADFS </a></strong>: aplicacions Microsoft que estan preparades per a ser integrades via ADFS, poden parlar amb GICAR a través del ADFS.</li>
+</ul>
+
+<p><strong>(*2). Amb la modalitat de AD, LDAP, o BBDD aprovisionada per GICAR</strong>:</p>
+
+<p>Amb aquesta modalitat d&rsquo;integració es poden assolir les següents funcionalitats d’autenticació:</p>
+
+<ul>
+<li>Autenticació amb Usuari i contrasenya de GICAR, contra el LDAP o la BBDD de la pròpia aplicació, o contra el directori de lloc de treball.</li>
+</ul>
+
+<p>Entenem per aquesta modalitat d’autenticació aquella en que l’aplicació delega l’autenticació a un directori actiu, LDAP o BBDD que GICAR aprovisiona. GICAR en aquesta BBDD pot sincronitzar l’usuari amb la seva contrasenya.</p>
+
+
+					
+
+					
+				</div>	
+
+			</article>	
+
+
+	</section>	
+
+		<div class="fons_footer ">
+		<footer class="container center-block shadowBox2">
+			<div class="shadow2"></div>
+			<div class="row footer_tab_ord">
+
+				<div class="footer_tab_bot col-sm-12">
+					<div class="avis_legal">
+
+						<div id="fAvisLegal">
+							<div>
+								<div class="hidden-xs">
+									<a href="https://www.gencat.cat"> <img
+										src="/img/logo_generalitat_gris.png_679097835.png"
+										width="101" height="27" alt="www.gencat.cat"
+										/></a>
+									<p>
+										<a title="Avis legal" href="https://web.gencat.cat/ca/menu-ajuda/ajuda/avis_legal/" target="_self">Avís legal</a>: La &copy; Generalitat de Catalunya permet la reutilització dels continguts i de les dades sempre que se citi la font i la data d'actualització, que no es desnaturalitzi la informació i que no es contradigui amb una llicència específica.
+									</p>
+								</div>
+								<div class="visible-xs avis_legal">
+									<p>
+										<a title="Avis legal" href="https://web.gencat.cat/ca/menu-ajuda/ajuda/avis_legal/" target="_self">Avís legal</a>: La &copy; Generalitat de Catalunya permet la reutilització dels continguts i de les dades sempre que se citi la font i la data d'actualització, que no es desnaturalitzi la informació i que no es contradigui amb una llicència específica.
+									</p>
+								</div>
+								
+								<div class="fi_peu visible-xs">
+									<a title="www.gencat.cat" href="https://www.gencat.cat"> <img
+										src="/img/logo_generalitat_gris.png_679097835.png"
+										width="101" height="27" 
+										alt="www.gencat.cat" /></a> <a class="torna_amunt pull-right"
+										href=" javascript:tornarAmunt();" title="Torna amunt">
+										<p>Torna amunt</p>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+<script src="/js/master.min.js" type="text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+<script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
+<script src="/js/custom.js" type="text/javascript"></script>
+
+
+
+<script type="text/javascript">
+
+if(location.hostname!=="localhost"){
+
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', "UA-59408075-1", 'auto');
+	ga('send', 'pageview', {
+	  	'page': location.pathname + location.search  + location.hash
+	  }
+	);
+
+}
+
+</script>
+
+
+
+
+</body>
+</html>

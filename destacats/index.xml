@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Arquitectura CTTI. Generalitat de Catalunya </title>
+    <link>https://canigo.ctti.gencat.cat/destacats/</link>
+    <language>ca-es</language>
+    
+    
+    <updated>Thu, 09 Sep 2021 00:00:00 UTC</updated>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+         
+    <item>
+      <title>
+        
+        Canigó. Actualització archetype 1.7.0 i plugin Eclipse 1.8.0
+      </title>
+      <link>https://canigo.ctti.gencat.cat/noticies/2021-10-25-CAN-Actualitzacio_archetype_1_7_0_plugin_eclipse_1_8_0/</link>
+      <pubDate>Wed, 10 Nov 2021 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/noticies/2021-10-25-CAN-Actualitzacio_archetype_1_7_0_plugin_eclipse_1_8_0/</guid>
+      <description>S&#39;ha publicat una nova versió de l&#39;archetype i del plugin de l&#39;eclipse de Canigó per a generar projectes amb Canigó 3.6</description>
+    </item>
+         
+    <item>
+      <title>
+        
+        Canigó. Publicació nova versió 3.6.0
+      </title>
+      <link>https://canigo.ctti.gencat.cat/noticies/2021-10-25-CAN-actualitzacio-canigo-3_6_0/</link>
+      <pubDate>Wed, 10 Nov 2021 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/noticies/2021-10-25-CAN-actualitzacio-canigo-3_6_0/</guid>
+      <description>S&#39;ha publicat una nova versió de Canigó donant suport a Jdk 11</description>
+    </item>
+         
+    <item>
+      <title>
+        
+        SIC. Posada en servei Plataforma SIC 3.0 per a desplegaments on-premise
+      </title>
+      <link>https://canigo.ctti.gencat.cat/noticies/2021-10-19-SIC-posada-servei-SIC-3.0-onpremise/</link>
+      <pubDate>Fri, 22 Oct 2021 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/noticies/2021-10-19-SIC-posada-servei-SIC-3.0-onpremise/</guid>
+      <description>El dia 20/10/2021 s&#39;ha posat en servei la nova Plataforma del Sistema d&#39;Integració Contínua 3.0 per a pipelines amb desplegament en infraestructures on-premise</description>
+    </item>
+         
+    <item>
+      <title>
+        
+        Publicació Catàleg Tècnic de Dades - Octubre21
+      </title>
+      <link>https://canigo.ctti.gencat.cat/noticies/2021-10-20_Gestio_tecnica_dades/</link>
+      <pubDate>Wed, 20 Oct 2021 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/noticies/2021-10-20_Gestio_tecnica_dades/</guid>
+      <description>S&#39;ha actualitzat el Catàleg Tècnic de Dades per incorporar entitats dins del grup d&#39;obligat compliment.</description>
+    </item>
+         
+    <item>
+      <title>
+        
+        SIC. Migració pipelines cloud al SIC 3.0
+      </title>
+      <link>https://canigo.ctti.gencat.cat/noticies/2021-10-19-SIC-migracio-pipelines-cloud-SIC-3.0/</link>
+      <pubDate>Tue, 19 Oct 2021 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/noticies/2021-10-19-SIC-migracio-pipelines-cloud-SIC-3.0/</guid>
+      <description>S&#39;ha finalitzat la migració de pipelines cloud a SIC 3.0. Recordeu revisar la documentació publicada per a tenir presents els canvis en la nova plataforma.</description>
+    </item>
+         
+    <item>
+      <title>
+        
+        Canigó. Pròxima actualització plugin Canigó 3.6
+      </title>
+      <link>https://canigo.ctti.gencat.cat/noticies/2021-10-14-Actualitzacio_plugin_canigo_3.6/</link>
+      <pubDate>Thu, 14 Oct 2021 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/noticies/2021-10-14-Actualitzacio_plugin_canigo_3.6/</guid>
+      <description>Pròximament s&#39;actualitzarà el plugin de Canigó per a generar projectes Canigó 3.6</description>
+    </item>
+         
+    <item>
+      <title>
+        
+        Canigó. Mòdul Enotum_WS deprecat
+      </title>
+      <link>https://canigo.ctti.gencat.cat/noticies/2021-10-01-Modul_enotum_ws_deprecat/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/noticies/2021-10-01-Modul_enotum_ws_deprecat/</guid>
+      <description>S&#39;ha deprecat el mòdul Enotum_WS que ja no aplica a Canigó 3.4.</description>
+    </item>
+         
+    <item>
+      <title>
+        
+        Nou model de pipeline per al desplegament de micro frontends
+      </title>
+      <link>https://canigo.ctti.gencat.cat/noticies/2021-09-22-SIC-desplegament-microfrontends/</link>
+      <pubDate>Wed, 22 Sep 2021 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/noticies/2021-09-22-SIC-desplegament-microfrontends/</guid>
+      <description>Adaptació del SIC 3.0 per a donar cobertura al desplegament de micro frontends independents dins un servidor compartit amb un volum persistent en plataformes Openshift i Kubernetes.</description>
+    </item>
+         
+    <item>
+      <title>
+        
+        Publicació Catàleg Tècnic de Dades - Setembre21
+      </title>
+      <link>https://canigo.ctti.gencat.cat/noticies/2021-09-22_Gestio_tecnica_dades/</link>
+      <pubDate>Wed, 22 Sep 2021 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/noticies/2021-09-22_Gestio_tecnica_dades/</guid>
+      <description>S&#39;ha actualitzat el Catàleg Tècnic de Dades per incorporar més entitats dins del grup d&#39;obligat compliment i actualitzar entitats ja publicades.</description>
+    </item>
+         
+    <item>
+      <title>
+        
+        SIC. Actualització de versió Gitlab
+      </title>
+      <link>https://canigo.ctti.gencat.cat/noticies/2021-09-14-sic-act_versio_scm/</link>
+      <pubDate>Tue, 14 Sep 2021 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/noticies/2021-09-14-sic-act_versio_scm/</guid>
+      <description>El dia 02/10/2021 s&#39;ha dut a terme l&#39;actualització del Servei de Custòdia de Codi (Gitlab)</description>
+    </item>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    <item>
+      <title>SIC 3.0 - Catàleg d&#39;imatges builder</title>
+      <link>https://canigo.ctti.gencat.cat/destacats/2021-09-09-sic-Cataleg_imatges_builder_sic3.0/</link>
+      <pubDate>Thu, 09 Sep 2021 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/destacats/2021-09-09-sic-Cataleg_imatges_builder_sic3.0/</guid>
+      <description>El catàleg d&#39;imatges builder del SIC 3.0 ja dóna suport a tot el catàleg de tecnologies necessàries per a la construcció d&#39;aplicacions.</description>
+    </item>
+    
+    <item>
+      <title>Canvi de visió de la llista de dades de referència d&#39;obligat compliment</title>
+      <link>https://canigo.ctti.gencat.cat/destacats/2021-07-21-gtd-Canvi_visio_taula_de_dades_mostrat_diferents_instancies/</link>
+      <pubDate>Wed, 21 Jul 2021 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/destacats/2021-07-21-gtd-Canvi_visio_taula_de_dades_mostrat_diferents_instancies/</guid>
+      <description>Dins del Catàleg Tècnic de Dades, s&#39;ha modificat la visió de la taula de Dades de referència d&#39;obligat compliment per a poder mostrar les diferents versions, instàncies, associades a una mateixa entitat. Les instàncies es poden generar per a evolucionar una versió que ha quedat obsoleta o per a definir diferents visions vàlides sobre una entitat.</description>
+    </item>
+    
+    <item>
+      <title>Publicació nova versió del full de ruta del programari</title>
+      <link>https://canigo.ctti.gencat.cat/destacats/2021-07-06-Nova-versio-full-de-ruta-programari/</link>
+      <pubDate>Tue, 06 Jul 2021 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/destacats/2021-07-06-Nova-versio-full-de-ruta-programari/</guid>
+      <description>Al mes de Juliol es va publicar una nova versió del full de ruta del programari estandarditzat pel CTTI.</description>
+    </item>
+    
+    <item>
+      <title>Publicació nova versió del full de ruta del programari</title>
+      <link>https://canigo.ctti.gencat.cat/destacats/2020-07-22-Nova-versio-full-de-ruta-programari/</link>
+      <pubDate>Wed, 22 Jul 2020 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/destacats/2020-07-22-Nova-versio-full-de-ruta-programari/</guid>
+      <description>Al mes de Juliol es va publicar una nova versió del full de ruta del programari estandarditzat pel CTTI.</description>
+    </item>
+    
+    <item>
+      <title>Publicació nova versió del full de ruta del programari</title>
+      <link>https://canigo.ctti.gencat.cat/destacats/2020-03-30-Nova-versio-full-de-ruta-programari/</link>
+      <pubDate>Mon, 30 Mar 2020 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/destacats/2020-03-30-Nova-versio-full-de-ruta-programari/</guid>
+      <description>Al mes de març ha estat publicada una nova versió del full de ruta del programari estandarditzat pel CTTI.</description>
+    </item>
+    
+    <item>
+      <title>Canigó. Punts a tenir en compte a l&#39;hora de triar un servidor incrustat</title>
+      <link>https://canigo.ctti.gencat.cat/destacats/2019-11-29-Punts_tenir_compte_triar_servidor_incrustat/</link>
+      <pubDate>Fri, 29 Nov 2019 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/destacats/2019-11-29-Punts_tenir_compte_triar_servidor_incrustat/</guid>
+      <description>Llistat dels diferents punts a tenir en compte a l&#39;hora de triar un servidor incrustat per una aplicació Canigó.</description>
+    </item>
+    
+    <item>
+      <title>SIC. Actualització de versió Gitlab</title>
+      <link>https://canigo.ctti.gencat.cat/destacats/2019-10-04-sic-act_versio_scm_11.11.8/</link>
+      <pubDate>Fri, 04 Oct 2019 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/destacats/2019-10-04-sic-act_versio_scm_11.11.8/</guid>
+      <description>Durant el mes d&#39;Octubre s&#39;ha dut a terme l&#39;actualització del Servei de Custodia de Codi (Gitlab).</description>
+    </item>
+    
+    <item>
+      <title>SIC. Actualització de versió Nexus</title>
+      <link>https://canigo.ctti.gencat.cat/destacats/2019-10-04-sic-act_versio_nexus_3.16.2/</link>
+      <pubDate>Fri, 04 Oct 2019 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/destacats/2019-10-04-sic-act_versio_nexus_3.16.2/</guid>
+      <description>Durant el mes d&#39;Octubre s&#39;han dut a terme actualització del repositori d&#39;artefactes (Nexus).</description>
+    </item>
+    
+    <item>
+      <title>Programació Reactiva a Canigó</title>
+      <link>https://canigo.ctti.gencat.cat/destacats/2019-09-16-Spring-Reactiu-Canigo/</link>
+      <pubDate>Mon, 16 Sep 2019 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/destacats/2019-09-16-Spring-Reactiu-Canigo/</guid>
+      <description>Dins de l&#39;abast de la publicació de Canigó 3.4 s&#39;incorpora la funcionalitat de programació reactiva. En el enllaç trobareu informació sobre com configurar una aplicació Canigó 3.4 per utilitzar MongoDB reactiu</description>
+    </item>
+    
+    <item>
+      <title>Programació Web Flux a Canigó</title>
+      <link>https://canigo.ctti.gencat.cat/destacats/2019-09-16-Spring-Web-Flux-Canigo/</link>
+      <pubDate>Mon, 16 Sep 2019 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/destacats/2019-09-16-Spring-Web-Flux-Canigo/</guid>
+      <description>El mes de Març del 2019 es va publicar la versió 3.4 del Framework Canigó. Aquesta versió utilitza Spring 5 que incorpora la possibilitat d&#39;utilitzar les funcionalitats de Web Flux. En el enllaç trobareu informació sobre què és el Web Flux i com utilitzar-ho a aplicacions Canigó</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Arquitectura CTTI. Generalitat de Catalunya </title>
+    <link>https://canigo.ctti.gencat.cat/sections/canig%C3%B3/</link>
+    <language>ca-es</language>
+    
+    
+    <updated>Mon, 25 Oct 2021 00:00:00 UTC</updated>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+         
+    <item>
+      <title>
+        
+        Canigó. Actualització archetype 1.7.0 i plugin Eclipse 1.8.0
+      </title>
+      <link>https://canigo.ctti.gencat.cat/noticies/2021-10-25-CAN-Actualitzacio_archetype_1_7_0_plugin_eclipse_1_8_0/</link>
+      <pubDate>Wed, 10 Nov 2021 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/noticies/2021-10-25-CAN-Actualitzacio_archetype_1_7_0_plugin_eclipse_1_8_0/</guid>
+      <description>S&#39;ha publicat una nova versió de l&#39;archetype i del plugin de l&#39;eclipse de Canigó per a generar projectes amb Canigó 3.6</description>
+    </item>
+         
+    <item>
+      <title>
+        
+        Canigó. Publicació nova versió 3.6.0
+      </title>
+      <link>https://canigo.ctti.gencat.cat/noticies/2021-10-25-CAN-actualitzacio-canigo-3_6_0/</link>
+      <pubDate>Wed, 10 Nov 2021 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/noticies/2021-10-25-CAN-actualitzacio-canigo-3_6_0/</guid>
+      <description>S&#39;ha publicat una nova versió de Canigó donant suport a Jdk 11</description>
+    </item>
+         
+    <item>
+      <title>
+        
+        SIC. Posada en servei Plataforma SIC 3.0 per a desplegaments on-premise
+      </title>
+      <link>https://canigo.ctti.gencat.cat/noticies/2021-10-19-SIC-posada-servei-SIC-3.0-onpremise/</link>
+      <pubDate>Fri, 22 Oct 2021 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/noticies/2021-10-19-SIC-posada-servei-SIC-3.0-onpremise/</guid>
+      <description>El dia 20/10/2021 s&#39;ha posat en servei la nova Plataforma del Sistema d&#39;Integració Contínua 3.0 per a pipelines amb desplegament en infraestructures on-premise</description>
+    </item>
+         
+    <item>
+      <title>
+        
+        Publicació Catàleg Tècnic de Dades - Octubre21
+      </title>
+      <link>https://canigo.ctti.gencat.cat/noticies/2021-10-20_Gestio_tecnica_dades/</link>
+      <pubDate>Wed, 20 Oct 2021 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/noticies/2021-10-20_Gestio_tecnica_dades/</guid>
+      <description>S&#39;ha actualitzat el Catàleg Tècnic de Dades per incorporar entitats dins del grup d&#39;obligat compliment.</description>
+    </item>
+         
+    <item>
+      <title>
+        
+        SIC. Migració pipelines cloud al SIC 3.0
+      </title>
+      <link>https://canigo.ctti.gencat.cat/noticies/2021-10-19-SIC-migracio-pipelines-cloud-SIC-3.0/</link>
+      <pubDate>Tue, 19 Oct 2021 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/noticies/2021-10-19-SIC-migracio-pipelines-cloud-SIC-3.0/</guid>
+      <description>S&#39;ha finalitzat la migració de pipelines cloud a SIC 3.0. Recordeu revisar la documentació publicada per a tenir presents els canvis en la nova plataforma.</description>
+    </item>
+         
+    <item>
+      <title>
+        
+        Canigó. Pròxima actualització plugin Canigó 3.6
+      </title>
+      <link>https://canigo.ctti.gencat.cat/noticies/2021-10-14-Actualitzacio_plugin_canigo_3.6/</link>
+      <pubDate>Thu, 14 Oct 2021 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/noticies/2021-10-14-Actualitzacio_plugin_canigo_3.6/</guid>
+      <description>Pròximament s&#39;actualitzarà el plugin de Canigó per a generar projectes Canigó 3.6</description>
+    </item>
+         
+    <item>
+      <title>
+        
+        Canigó. Mòdul Enotum_WS deprecat
+      </title>
+      <link>https://canigo.ctti.gencat.cat/noticies/2021-10-01-Modul_enotum_ws_deprecat/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/noticies/2021-10-01-Modul_enotum_ws_deprecat/</guid>
+      <description>S&#39;ha deprecat el mòdul Enotum_WS que ja no aplica a Canigó 3.4.</description>
+    </item>
+         
+    <item>
+      <title>
+        
+        Nou model de pipeline per al desplegament de micro frontends
+      </title>
+      <link>https://canigo.ctti.gencat.cat/noticies/2021-09-22-SIC-desplegament-microfrontends/</link>
+      <pubDate>Wed, 22 Sep 2021 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/noticies/2021-09-22-SIC-desplegament-microfrontends/</guid>
+      <description>Adaptació del SIC 3.0 per a donar cobertura al desplegament de micro frontends independents dins un servidor compartit amb un volum persistent en plataformes Openshift i Kubernetes.</description>
+    </item>
+         
+    <item>
+      <title>
+        
+        Publicació Catàleg Tècnic de Dades - Setembre21
+      </title>
+      <link>https://canigo.ctti.gencat.cat/noticies/2021-09-22_Gestio_tecnica_dades/</link>
+      <pubDate>Wed, 22 Sep 2021 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/noticies/2021-09-22_Gestio_tecnica_dades/</guid>
+      <description>S&#39;ha actualitzat el Catàleg Tècnic de Dades per incorporar més entitats dins del grup d&#39;obligat compliment i actualitzar entitats ja publicades.</description>
+    </item>
+         
+    <item>
+      <title>
+        
+        SIC. Actualització de versió Gitlab
+      </title>
+      <link>https://canigo.ctti.gencat.cat/noticies/2021-09-14-sic-act_versio_scm/</link>
+      <pubDate>Tue, 14 Sep 2021 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/noticies/2021-09-14-sic-act_versio_scm/</guid>
+      <description>El dia 02/10/2021 s&#39;ha dut a terme l&#39;actualització del Servei de Custòdia de Codi (Gitlab)</description>
+    </item>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    <item>
+      <title>Canigó. Tests unitaris integrats als binaris de Canigó</title>
+      <link>https://canigo.ctti.gencat.cat/destacats/2018-01-10-Test-jars-Canigo/</link>
+      <pubDate>Wed, 10 Jan 2018 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/destacats/2018-01-10-Test-jars-Canigo/</guid>
+      <description>Amb l&#39;objectiu que els proveïdors d&#39;aplicacions puguin provar el funcionament dels mòduls de Canigó, podent sobreescriure versions de llibreries, es proporcionen binaris amb els tests unitaris integrats. A aquests binaris els coneixem com a test-jars</description>
+    </item>
+    
+    <item>
+      <title>Publicada nova versió de l&#39;entorn de desenvolupament de Canigó</title>
+      <link>https://canigo.ctti.gencat.cat/destacats/entorn-dev-1_0_2/</link>
+      <pubDate>Mon, 09 Jan 2017 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/destacats/entorn-dev-1_0_2/</guid>
+      <description>Ha estat publicada la versió 1.0.2 de l&#39;entorn de desenvolupament de Canigó. Properament es publicarà la versió 2.0.0 amb canvis importants com l&#39;actualització a Ubuntu 16.04 LTS i actualització de programari per estar alineat amb la darrera versió del full de ruta</description>
+    </item>
+    
+    <item>
+      <title>Transformació PICA</title>
+      <link>https://canigo.ctti.gencat.cat/destacats/transformacio-pica/</link>
+      <pubDate>Fri, 15 Apr 2016 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/destacats/transformacio-pica/</guid>
+      <description>El 19/4 es completarà la transformació de la PICA a l&#39;entorn de PRO. Totes aquelles aplicacions Canigó que facin ús dels connectors amb la PICA hauran d&#39;haver estat configurades per accedir al nou domini pica.intranet.gencat.cat</description>
+    </item>
+    
+    <item>
+      <title>Publicada versió 1.0.1 entorn Dev Canigó</title>
+      <link>https://canigo.ctti.gencat.cat/destacats/entorn-dev-1_0_1/</link>
+      <pubDate>Tue, 29 Mar 2016 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/destacats/entorn-dev-1_0_1/</guid>
+      <description>Ha estat publicada una nova versió de l&#39;entorn de desenvolupament de Canigó basada en Ubuntu 15.10 i certificada per a ser proveïda amb Vagrant 1.8</description>
+    </item>
+    
+    <item>
+      <title>Nova versió connector canigó PICA DNI</title>
+      <link>https://canigo.ctti.gencat.cat/destacats/nova-versio-pica/</link>
+      <pubDate>Thu, 28 Jan 2016 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/destacats/nova-versio-pica/</guid>
+      <description>Ha estat publicada una nova versió del connector PICA DNI on s&#39;incorporen els darrers canvis realitzats a la missatgeria</description>
+    </item>
+    
+  </channel>
+</rss>
