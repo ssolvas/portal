@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html xml:lang="ca-ES" lang="ca-ES" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+	<title>Canigó. Vulnerabilitat Log4j</title>
+		<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico" />
+	<link href="/css/master.min.css" rel="stylesheet" type="text/css" />
+	<link href="/css/canigo.css" rel="stylesheet" type="text/css" />
+	<script src="/js/jquery.min.js" type="text/javascript"></script>
+
+	<script>
+		document.write("<meta name=\"titol\" content=\"Canigó. Vulnerabilitat Log4j\" />");
+		document.write("<meta name=\"description\" content=\"Com resoldre les vulnerabilitats que afecten la biblioteca de registres basada en Java Log4j\" />");
+	</script>
+
+	
+
+</head>
+<body class="single">
+	<div class="contenidor unfixed">
+
+				
+
+		<header class="fons_header navbar navbar-default z-index-menu">
+			<div class="container" role="menu">
+				<div class="row clearfix menuNav">
+					<div class="col-md-3 col-xs-3 column visible-xs coloca ">
+						<button type="button" onclick="amunt();" title="Menu"
+							class="navbar-toggle pull-left" data-toggle="collapse"
+							data-target=".navbar-collapse">
+							<span class="sr-only">Toggle navigation</span> <span
+								class="icon-bar"></span> <span class="icon-bar"></span> <span
+								class="icon-bar"></span>
+						</button>
+					</div>
+
+					<div class="col-md-3 col-xs-6 col-offset-2 column visible-xs titol-mobil">
+						
+						<span class="white titol-mobil-destacat">canigo.ctti</span><span class="white">.gencat.cat</span>
+					</div>
+
+					<div class="col-md-3 col-xs-3 column visible-xs coloca1">
+						<button onclick="amunt();" type="button" title="Cerca"
+							class="ico_cerca " data-toggle="collapse" data-target=".dos">
+						</button>
+					</div>
+
+				</div>
+
+				<div class="collapse dos">
+					<div class="shadowBox">
+						<form class="navbar-form navbar-left primer" action="/cercador/" method="get"
+ 						onsubmit="location.href=this.action+'?q='+this.cerca_cap.value; return false;">
+							<div class="form-group">
+								<input type="search" class="form-control" name="q" id="cerca_cap"
+									title="Cerca"
+									placeholder="Cerca" />
+								<button type="button" title="Neteja" class="btn btn-default"></button>
+								<input type="submit" class="ocult" name="Cerca" value="Cerca" />
+							</div>
+						</form>
+					</div>
+				</div>	
+
+				<nav class="collapse navbar-collapse navbar-ex1-collapse ">
+				
+					<div class="row">
+						<div class="col-md-6 col-sm-4 column">
+							<a class="img-responsive logo" title="Generalitat de Catalunya"
+								href="https://ctti.gencat.cat/">gencat.cat</a>
+							<button class="menu_tancar visible-xs collapsed"
+								data-target=".navbar-collapse" data-toggle="collapse"
+								title="Tancar"></button>
+						</div>
+
+						<div class="col-md-6 col-sm-8 column hidden-xs hidden-mg">
+							<form class="navbar-form cercador_vermell hidden-xs pull-right" action="/cercador/"  method="get" onsubmit="location.href=this.action+'?q='+this.cerca2.value; return false;">
+								<div class="form-group">
+									<label class="hidden" for="cerca2">Cerca</label>
+									<input id="cerca2" class="form-control" type="search" 
+									placeholder="Cerca" name="q" title="Cerca">
+									<input class="btn btn-default" type="submit" title="Cerca" value="">
+								</div>
+							</form>
+
+							
+
+						</div>
+
+					</div>
+					<div class="col-xs-12 hidden-xs" id="nomPortal">
+                    	<span class="titol-cap-nou">Centre de Telecomunicacions i Tecnologies de la Informació</span>
+                    </div>					
+					<ul class="nav navbar-nav">
+
+			        	
+
+						<li>
+							<a class="dropdown-toggle" href='/' data-toggle='_dropdown'>Inici</a>
+						</li>
+
+						
+
+						<li>
+							<a class="dropdown-toggle" href='/arqctti' data-toggle='_dropdown'>Arquitectura CTTI</a>
+						</li>
+
+						
+
+						<li>
+							<a class="dropdown-toggle" href='/blog' data-toggle='_dropdown'>Blog</a>
+						</li>
+
+						
+
+						<li>
+							<a class="dropdown-toggle" href='/cloud' data-toggle='_dropdown'>Cloud</a>
+						</li>
+
+						
+
+						<li>
+							<a class="dropdown-toggle" href='/canigo' data-toggle='_dropdown'>Canigó</a>
+						</li>
+
+						
+
+						<li>
+							<a class="dropdown-toggle" href='/sic' data-toggle='_dropdown'>SIC</a>
+						</li>
+
+						
+
+						<li>
+							<a class="dropdown-toggle" href='/sgde' data-toggle='_dropdown'>SGDE</a>
+						</li>
+
+						
+
+						<li>
+							<a class="dropdown-toggle" href='/gicar' data-toggle='_dropdown'>GICAR</a>
+						</li>
+
+						
+
+						<li>
+							<a class="dropdown-toggle" href='/cs' data-toggle='_dropdown'>Centres de Suport</a>
+						</li>
+
+						
+
+						<li>
+							<a class="dropdown-toggle" href='/dadesref' data-toggle='_dropdown'>Gestió Tècnica de Dades</a>
+						</li>
+
+						
+
+						<li>
+							<a class="dropdown-toggle" href='/eventhub' data-toggle='_dropdown'>EventHub</a>
+						</li>
+
+						
+
+					</ul>
+
+				</nav>
+			</div>
+		</header>
+
+
+
+	</div>
+
+	<section class="border-start">
+
+						
+			
+
+			<article class="bgGrey">
+				<div class="container">
+					<div class="row">
+						<div class="capcelera_basica col-sm-12">
+							<div class="capcelera_basica_cont">
+								<ol class="breadcrumb filariana hidden-xs">
+									<li>
+										<a href="/">Inici</a>
+									</li>
+									<li class="breadcrumbs2">
+									
+										<a href="/howtos">
+											
+
+
+
+
+
+
+
+
+
+
+
+	How to
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+										</a>
+										
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+									
+									</li>
+
+								</ol>
+
+								<h1 class="capcelera_flotant pull-left" data-txt=".title">
+									
+
+										
+											
+
+
+
+
+	Canigó. Vulnerabilitat Log4j
+
+
+										
+
+									
+								</h1>
+
+								
+
+								
+								
+
+								
+
+								
+
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</article>
+
+			
+
+
+		   <div class="padding-xs container">
+	    	
+	    	   <i><b>Darrera actualització:</b></i> 27-12-2021
+	        
+           </div>
+           
+			<article class="padding-xs padding-sm padding-md contingut">				
+				<div class="container">
+ 		
+					
+				
+
+	
+
+
+					
+
+						
+
+<p><strong>L&rsquo;Apache Software Foundation ha detectat, des del 10 de desembre de 2021, diverses vulnerabilitats que afecten la
+biblioteca de registres basada en Java Log4J</strong>.</p>
+
+<p>Les vulnerabilitats detectades són les següents:</p>
+
+<ul>
+<li><p>Log4Shell o LogJam <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44228">CVE-2021-44228</a>, considerada molt crítica permetent l&rsquo;execució
+de codi remot no autenticat de forma senzilla en qualsevol aplicació que utilitzi des de la versió Log4j 2.0-beta9 fins a la versió 2.14.0.</p></li>
+
+<li><p><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-45046">CVE-2021-45046</a>, considerada crítica, encara que la seva explotació és més limitada,
+permetent, com en la vulnerabilitat anterior, l&rsquo;execució de codi remot no autenticat de forma senzilla en qualsevol aplicació que faci servir des de la
+versió Log4j 2.0-beta9 fins a la versió 2.15.0.</p></li>
+
+<li><p><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-45105">CVE-2021-45105</a>, considerada moderada, permet als atacants obtenir un &ldquo;StackOverflowError&rdquo;
+per tancar el procés i generar una denegació de servei en qualsevol aplicació que faci servir des de la versió Log4j 2.0-beta9 fins a la versió 2.16.0.</p></li>
+</ul>
+
+<p>S&rsquo;ha publicat la <strong>versió 2.17.0 de la llibreria Log4j per a mitigar aquestes vulnerabilitats</strong>.</p>
+
+<p>Per més informació podeu consultar <a href="https://logging.apache.org/log4j/2.x/security.html">Apache Log4j Security Vulnerabilities</a>.</p>
+
+<p>Des de l&rsquo;Agència de Ciberseguretat de la Generalitat s&rsquo;han considerat aquestes vulnerabilitats com a crítiques i d&rsquo;un potencial
+gran impacte, recomanant als usuaris i administradors de sistemes que actualitzin el log4j de forma urgent.</p>
+
+<p><br/>
+Altra informació de referència:</p>
+
+<ul>
+<li><a href="https://nvd.nist.gov/vuln/detail/CVE-2021-44228/">https://nvd.nist.gov/vuln/detail/CVE-2021-44228/</a> <br /></li>
+<li><a href="https://nvd.nist.gov/vuln/detail/CVE-2021-45046/">https://nvd.nist.gov/vuln/detail/CVE-2021-45046/</a> <br /></li>
+<li><a href="https://nvd.nist.gov/vuln/detail/CVE-2021-45105/">https://nvd.nist.gov/vuln/detail/CVE-2021-45105/</a> <br /></li>
+<li><a href="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j/">https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j/</a> <br /></li>
+<li><a href="https://snyk.io/wp-content/uploads/cheat-sheet-log4shell-remediation-v6.pdf">https://snyk.io/wp-content/uploads/cheat-sheet-log4shell-remediation-v6.pdf</a> <br /></li>
+</ul>
+
+<h2 id="com-solucionar-la-vulnerabilitat-a-les-aplicacions">Com solucionar la vulnerabilitat a les aplicacions</h2>
+
+<p>Cal substituir la versió de la dependència de la libreria <code>log4j</code> en temps de compilació.</p>
+
+<h3 id="aplicacions-canigó-spring-boot">Aplicacions Canigó (Spring Boot)</h3>
+
+<ul>
+<li><p>Opció 1) Modificar el fitxer <code>pom.xml</code> - <strong>opció recomanada</strong> -, compilar i desplegar l&rsquo;aplicació:</p>
+
+<blockquote>
+<ul>
+<li><p>Sí el JDK és igual o superior a <code>1.8</code>:</p>
+
+<pre><code class="language-xml">&lt;properties&gt;
+&lt;log4j2.version&gt;2.17.0&lt;/log4j2.version&gt;
+&lt;/properties&gt;
+</code></pre></li>
+
+<li><p>Sí el JDK és <code>1.7</code>:</p>
+
+<pre><code class="language-xml">&lt;properties&gt;
+&lt;log4j2.version&gt;2.12.3&lt;/log4j2.version&gt;
+&lt;/properties&gt;
+</code></pre></li>
+
+<li><p>Sí el JDK és <code>1.6</code>:</p>
+
+<pre><code class="language-xml">&lt;properties&gt;
+&lt;log4j2.version&gt;2.3.1&lt;/log4j2.version&gt;
+&lt;/properties&gt;
+</code></pre></li>
+</ul>
+</blockquote></li>
+
+<li><p>Opció 2) Injectar la variable durant la construcció de l&rsquo;aplicació, compilar i desplegar l&rsquo;aplicació. Per exemple:</p>
+
+<pre><code class="language-sh">mvn -Dlog4j2.version=2.17.0 clean package &amp;&amp; java -jar ./target/CanigoLog4jShellTest.war
+</code></pre></li>
+</ul>
+
+<h3 id="aplicacions-que-facin-ús-dels-mòduls-de-canigó-sense-spring-boot">Aplicacions que facin ús dels mòduls de Canigó (sense Spring Boot)</h3>
+
+<p>Si no és possible actualitzar a l&rsquo;última versió dels mòduls - <strong>opció recomanada</strong> -, caldrà excloure la dependència de Log4j
+dels mòduls de Canigó i afegir la dependència correcta a nivell global; recomanant fer ús de la comanda Maven <code>mvn dependency:tree | grep log4j</code>
+per a identificar a quin nivell està Log4j associada com a dependència. Un cop revisat, caldrà compilar i desplegar l&rsquo;aplicació.
+Per exemple:</p>
+
+<pre><code class="language-xml">&lt;dependency&gt;
+  &lt;groupId&gt;cat.gencat.ctti&lt;/groupId&gt;
+  &lt;artifactId&gt;canigo.core&lt;/artifactId&gt;
+  &lt;version&gt;${canigo.core.version}&lt;/version&gt;
+  &lt;exclusions&gt;
+	&lt;exclusion&gt;
+	  &lt;groupId&gt;org.apache.logging.log4j&lt;/groupId&gt;
+	  &lt;artifactId&gt;log4j-core&lt;/artifactId&gt;
+	&lt;/exclusion&gt;
+	...
+  &lt;/exclusions&gt;
+&lt;/dependency&gt;
+&lt;dependency&gt;
+  &lt;groupId&gt;org.apache.logging.log4j&lt;/groupId&gt;
+  &lt;artifactId&gt;log4j-core&lt;/artifactId&gt;
+  &lt;version&gt;2.17.0&lt;/version&gt;
+&lt;/dependency&gt;
+...
+</code></pre>
+
+<h2 id="construcció-i-desplegament-d-aplicacions-via-sic">Construcció i desplegament d&rsquo;aplicacions via SIC</h2>
+
+<p>Totes <strong>les versions de la llibreria Log4j que mitiguen la vulnerabilitat es troben actualment disponibles al Repositori de Llibreries del SIC</strong>.</p>
+
+<p>No obstant això, s&rsquo;han publicat també al Repositori de Llibreries del SIC algunes llibreries parchejades que es detallen a continuació:</p>
+
+<h3 id="log4j-v-1-2-17-sense-la-classe-jmsappender">Log4j v.1.2.17 sense la classe JMSAppender</h3>
+
+<p>Malgrat que el risc detectat és menor i únicament serien vulnerables les aplicacions que disposin d&rsquo;una configuració de logging
+amb configuracions JMSAppender, en la línia de les mesures mitigadores proposades <strong>s&rsquo;ha acordat publicar al Repositori de
+llibreries del SIC la llibreria Log4j v.1.2.17 parchejada havent eliminat la classe en qüestió</strong>.</p>
+
+<p>Per a referenciar-la des de les aplicacions, cal definir la dependència com es mostra a continuació:</p>
+
+<pre><code class="language-xml">&lt;dependency&gt;
+  &lt;groupId&gt;log4j-patched&lt;/groupId&gt;
+  &lt;artifactId&gt;log4j&lt;/artifactId&gt;
+  &lt;version&gt;1.2.17&lt;/version&gt;
+  &lt;classifier&gt;patched&lt;/classifier&gt;
+&lt;/dependency&gt;
+</code></pre>
+
+<h3 id="log4j-v-2-12-3-sense-les-classes-destinades-a-jdk-1-9-llibreria-multi-release">Log4j v.2.12.3 sense les classes destinades a Jdk 1.9 (llibreria multi-release)</h3>
+
+<p>Arran d&rsquo;haver detectat problemes en el desplegament a servidors WebLogic v.12.x d&rsquo;aplicacions que corren amb Jdk 1.7 pel fet
+que la llibreria Log4j v.2.12.3 incorpora una sèrie de classes específiques per a Jdk 1.9 (llibreria multi-release),
+<strong>s&rsquo;ha acordat publicar al Repositori de llibreries del SIC la llibreria Log4j v.2.12.3 parchejada havent
+eliminat les classses en qüestió</strong>.</p>
+
+<p>Per a referenciar-les des de les aplicacions, cal definir les dependències com es mostra a continuació:</p>
+
+<pre><code class="language-xml">&lt;dependency&gt;
+  &lt;groupId&gt;org.apache.logging.log4j-patched&lt;/groupId&gt;
+  &lt;artifactId&gt;log4j-core&lt;/artifactId&gt;
+  &lt;version&gt;2.12.3&lt;/version&gt;
+  &lt;classifier&gt;patched&lt;/classifier&gt;
+&lt;/dependency&gt;
+</code></pre>
+
+<pre><code class="language-xml">&lt;dependency&gt;
+  &lt;groupId&gt;org.apache.logging.log4j-patched&lt;/groupId&gt;
+  &lt;artifactId&gt;log4j-api&lt;/artifactId&gt;
+  &lt;version&gt;2.12.3&lt;/version&gt;
+  &lt;classifier&gt;patched&lt;/classifier&gt;
+&lt;/dependency&gt;
+</code></pre>
+
+<h2 id="noves-versions-de-canigó-3-4-i-3-6">Noves versions de Canigó 3.4 i 3.6</h2>
+
+<p>S&rsquo;han alliberat noves versions del Framework Canigó:</p>
+
+<ul>
+<li><p>Versions de Canigó 3.4.9 i 3.6.3 per a resoldre aquesta vulnerabilitat als mòduls de Canigó.
+Podeu consultar: <a href="/noticies/2021-12-27-CAN-actualitzacio-canigo-3_4_9_3_6_3">Publicació nova versió 3.4.9 i 3.6.3</a>.</p></li>
+
+<li><p>Versió 1.6.10 de l&rsquo;archetype de Canigó per a generar projectes amb Canigó 3.4.9.
+Podeu consultar: <a href="/noticies/2021-12-27-CAN-Actualitzacio_archetype_1_6_10/">Actualització archetype 1.6.10</a>.</p></li>
+
+<li><p>Versió 1.7.3 de l&rsquo;archetype de Canigó i la versió 1.8.3 del plugin del eclipse per a generar projectes amb Canigó 3.6.3.
+Podeu consultar: <a href="/noticies/2021-12-27-CAN-Actualitzacio_archetype_1_7_3_plugin_eclipse_1_8_3/">Actualització archetype 1.7.3 i plugin Eclipse 1.8.3</a>.</p></li>
+</ul>
+
+<p>Des de CS Canigó es recomana actualitzar a aquestes noves versions. Per a fer-ho, serà necessari revisar les dependències de l&rsquo;aplicació
+per a utilitzar els mòduls de les versions 3.4.9 i 3.6.3. Podeu consultar les matrius de compatibilitat de les versions:</p>
+
+<ul>
+<li><p><a href="/canigo-download-related/matrius-compatibilitats/canigo-34/">Matrius de Compatibilitats 3.4</a></p></li>
+
+<li><p><a href="/canigo-download-related/matrius-compatibilitats/canigo-36/">Matrius de Compatibilitats 3.6</a></p></li>
+</ul>
+
+<p>Un cop es comprovi que s&rsquo;utilitzen les últimes versions dels mòduls, caldrà modificar el fitxer <code>pom.xml</code> per a assegurar l&rsquo;ús
+de la versió 2.17.0 de log4j:</p>
+
+<pre><code class="language-xml">&lt;properties&gt;
+&lt;log4j2.version&gt;2.17.0&lt;/log4j2.version&gt;
+&lt;/properties&gt;
+</code></pre>
+
+<p>Un cop realitzades les adaptacions descrites, comprovar que només s&rsquo;utilitza la versió 2.17.0 del log4j a l&rsquo;aplicació mitjançant:</p>
+
+<pre><code>mvn dependency:tree | grep log4j
+</code></pre>
+
+<p><br/><br/>
+Per qualsevol dubte relatiu a aquesta nova versió del Framework Canigó us podeu posar en contacte amb el CS Canigó
+al <a href="https://cstd.ctti.gencat.cat/jiracstd/projects/CAN">servei CAN</a> del JIRA CSTD o enviant-nos un correu electrònic
+a la <a href="mailto:oficina-tecnica.canigo.ctti@gencat.cat">bústia del CS Canigó</a>.</p>
+
+
+					
+
+					
+				</div>	
+
+			</article>	
+
+
+	</section>	
+
+		<div class="fons_footer ">
+		<footer class="container center-block shadowBox2">
+			<div class="shadow2"></div>
+			<div class="row footer_tab_ord">
+
+				<div class="footer_tab_bot col-sm-12">
+					<div class="avis_legal">
+
+						<div id="fAvisLegal">
+							<div>
+								<div class="hidden-xs">
+									<a href="https://www.gencat.cat"> <img
+										src="/img/logo_generalitat_gris.png_679097835.png"
+										width="101" height="27" alt="www.gencat.cat"
+										/></a>
+									<p>
+										<a title="Avis legal" href="https://web.gencat.cat/ca/menu-ajuda/ajuda/avis_legal/" target="_self">Avís legal</a>: La &copy; Generalitat de Catalunya permet la reutilització dels continguts i de les dades sempre que se citi la font i la data d'actualització, que no es desnaturalitzi la informació i que no es contradigui amb una llicència específica.
+									</p>
+								</div>
+								<div class="visible-xs avis_legal">
+									<p>
+										<a title="Avis legal" href="https://web.gencat.cat/ca/menu-ajuda/ajuda/avis_legal/" target="_self">Avís legal</a>: La &copy; Generalitat de Catalunya permet la reutilització dels continguts i de les dades sempre que se citi la font i la data d'actualització, que no es desnaturalitzi la informació i que no es contradigui amb una llicència específica.
+									</p>
+								</div>
+								
+								<div class="fi_peu visible-xs">
+									<a title="www.gencat.cat" href="https://www.gencat.cat"> <img
+										src="/img/logo_generalitat_gris.png_679097835.png"
+										width="101" height="27" 
+										alt="www.gencat.cat" /></a> <a class="torna_amunt pull-right"
+										href=" javascript:tornarAmunt();" title="Torna amunt">
+										<p>Torna amunt</p>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+<script src="/js/master.min.js" type="text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+<script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
+<script src="/js/custom.js" type="text/javascript"></script>
+
+
+
+<script type="text/javascript">
+
+if(location.hostname!=="localhost"){
+
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', "UA-59408075-1", 'auto');
+	ga('send', 'pageview', {
+	  	'page': location.pathname + location.search  + location.hash
+	  }
+	);
+
+}
+
+</script>
+
+
+
+
+</body>
+</html>

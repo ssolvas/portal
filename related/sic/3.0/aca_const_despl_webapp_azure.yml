@@ -1,0 +1,27 @@
+version: 2.0.0
+info:
+  version: 2.0.0
+  description: WebApp azure
+global-env:
+  - CONTAINER_DOCKERFILE_PATH: Dockerfile
+  - CONTAINER_IMAGE_NAME: app-test
+components:
+  - deployment:
+      environments:
+        - name: preproduction
+          actions:
+            deploy:
+              steps:
+                - execution:
+                    env:
+                      - WEBAPP_NAME: 'app-test'
+        - name: production
+          actions:
+            deploy:
+              steps:
+                - execution:
+                    env:
+                      - WEBAPP_NAME: 'app-test'
+notifications:
+  email:
+    recipients: [ noreply@gencat.cat ]

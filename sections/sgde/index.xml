@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Arquitectura CTTI. Generalitat de Catalunya </title>
+    <link>https://canigo.ctti.gencat.cat/sections/sgde/</link>
+    <language>ca-es</language>
+    
+    
+    <updated>Sat, 24 Jan 2015 17:11:42 &#43;0100</updated>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+         
+    <item>
+      <title>
+        
+        SIC. Adaptació integració SonarQube
+      </title>
+      <link>https://canigo.ctti.gencat.cat/noticies/2022-02-15-SIC-Actualitzacio_integracio_SonarQube/</link>
+      <pubDate>Tue, 15 Feb 2022 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/noticies/2022-02-15-SIC-Actualitzacio_integracio_SonarQube/</guid>
+      <description>A partir del 17/02/2022 es posa en servei l&#39;adaptació tecnològica de la integració de les pipelines SIC 2.0 amb el SonarQube de l&#39;Oficina de Qualitat.</description>
+    </item>
+         
+    <item>
+      <title>
+        
+        SIC. Desplegament de productes al SIC 3.0
+      </title>
+      <link>https://canigo.ctti.gencat.cat/noticies/2022-02-02-SIC-Desplegament_productes_SIC3.0/</link>
+      <pubDate>Wed, 02 Feb 2022 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/noticies/2022-02-02-SIC-Desplegament_productes_SIC3.0/</guid>
+      <description>El SIC 3.0 permet dur a terme el desplegament en contenidors de productes a partir d’imatges existents en registres públics.</description>
+    </item>
+         
+    <item>
+      <title>
+        
+        Publicació Catàleg Tècnic de Dades - Gener22
+      </title>
+      <link>https://canigo.ctti.gencat.cat/noticies/2022-01-26_Gestio_tecnica_dades/</link>
+      <pubDate>Wed, 26 Jan 2022 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/noticies/2022-01-26_Gestio_tecnica_dades/</guid>
+      <description>S&#39;ha actualitzat el Catàleg Tècnic de Dades per actualitzar entitats publicades i ampliar la llista d&#39;entitats pendents d&#39;aprovació.</description>
+    </item>
+         
+    <item>
+      <title>
+        
+        SIC. NET Core al SIC 3.0
+      </title>
+      <link>https://canigo.ctti.gencat.cat/noticies/2022-01-18-SIC-Dot_Net_Core_SIC3.0/</link>
+      <pubDate>Tue, 18 Jan 2022 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/noticies/2022-01-18-SIC-Dot_Net_Core_SIC3.0/</guid>
+      <description>A partir del 27/01/2022 es passa a donar cobertura a la construcció i desplegament d’aplicacions .NET Core al SIC 3.0.</description>
+    </item>
+         
+    <item>
+      <title>
+        
+        Canigó. Actualització archetype 1.6.10
+      </title>
+      <link>https://canigo.ctti.gencat.cat/noticies/2021-12-27-CAN-Actualitzacio_archetype_1_6_10/</link>
+      <pubDate>Mon, 27 Dec 2021 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/noticies/2021-12-27-CAN-Actualitzacio_archetype_1_6_10/</guid>
+      <description>S&#39;ha publicat una nova versió de l&#39;archetype de Canigó per a generar projectes amb Canigó 3.4.9</description>
+    </item>
+         
+    <item>
+      <title>
+        
+        Canigó. Actualització archetype 1.7.3 i plugin Eclipse 1.8.3
+      </title>
+      <link>https://canigo.ctti.gencat.cat/noticies/2021-12-27-CAN-Actualitzacio_archetype_1_7_3_plugin_eclipse_1_8_3/</link>
+      <pubDate>Mon, 27 Dec 2021 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/noticies/2021-12-27-CAN-Actualitzacio_archetype_1_7_3_plugin_eclipse_1_8_3/</guid>
+      <description>S&#39;ha publicat una nova versió de l&#39;archetype i del plugin de l&#39;eclipse de Canigó per a generar projectes amb Canigó 3.6.3</description>
+    </item>
+         
+    <item>
+      <title>
+        
+        Canigó. Publicació nova versió 3.4.9 i 3.6.3
+      </title>
+      <link>https://canigo.ctti.gencat.cat/noticies/2021-12-27-CAN-actualitzacio-canigo-3_4_9_3_6_3/</link>
+      <pubDate>Mon, 27 Dec 2021 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/noticies/2021-12-27-CAN-actualitzacio-canigo-3_4_9_3_6_3/</guid>
+      <description>S&#39;ha publicat una nova versió de Canigó 3.4.9 i 3.6.3 utilitzant log4j versió 2.17.0 per a corregir la vulnerabilitat detectada</description>
+    </item>
+         
+    <item>
+      <title>
+        
+        Publicació Catàleg Tècnic de Dades - Desembre21
+      </title>
+      <link>https://canigo.ctti.gencat.cat/noticies/2021-12-22_Gestio_tecnica_dades/</link>
+      <pubDate>Wed, 22 Dec 2021 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/noticies/2021-12-22_Gestio_tecnica_dades/</guid>
+      <description>S&#39;ha actualitzat el Catàleg Tècnic de Dades per incorporar més entitats dins del grup d&#39;obligat compliment i actualitzar entitats ja publicades i la llista d&#39;entitats pendents d&#39;aprovació.</description>
+    </item>
+         
+    <item>
+      <title>
+        
+        SIC. Nova plataforma CaaS KuberMe de CPD1
+      </title>
+      <link>https://canigo.ctti.gencat.cat/noticies/2021-11-25-SIC-nova-plataforma-kuberme-cpd1/</link>
+      <pubDate>Thu, 25 Nov 2021 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/noticies/2021-11-25-SIC-nova-plataforma-kuberme-cpd1/</guid>
+      <description>Incorporació de la nova plataforma cloud Caas Kuberme de CPD1 i adaptació del SIC 3.0 per a donar cobertura al desplegament d’aplicacions.</description>
+    </item>
+         
+    <item>
+      <title>
+        
+        Publicació Catàleg Tècnic de Dades - Novembre21
+      </title>
+      <link>https://canigo.ctti.gencat.cat/noticies/2021-11-17_Gestio_tecnica_dades/</link>
+      <pubDate>Wed, 17 Nov 2021 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/noticies/2021-11-17_Gestio_tecnica_dades/</guid>
+      <description>S&#39;ha actualitzat el Catàleg Tècnic de Dades per evolucionar una entitat del grup d&#39;obligat compliment i modificar la presentació d&#39;informació.</description>
+    </item>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    <item>
+      <title>STD - Nova versió Manual d&#39;Usuari STD versió 2</title>
+      <link>https://canigo.ctti.gencat.cat/destacats/2019-05-31-std-manual-usuari-std-v2/</link>
+      <pubDate>Fri, 31 May 2019 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/destacats/2019-05-31-std-manual-usuari-std-v2/</guid>
+      <description>S&#39;ha actualitzat el Manual d&#39;Usuari de STD alineat amb els serveis que s&#39;ofereixen després de la rearquitectura. Per a més informació podeu seguir l&#39;enllaç al títol d&#39;aquest mateix destacat</description>
+    </item>
+    
+    <item>
+      <title>STD - En servei nou entorn de PRO</title>
+      <link>https://canigo.ctti.gencat.cat/destacats/2019-05-30-std-en-servei-nou-entorn-pro/</link>
+      <pubDate>Thu, 30 May 2019 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/destacats/2019-05-30-std-en-servei-nou-entorn-pro/</guid>
+      <description>En data 23/05/2019 s&#39;ha posat en servei el nou entorn de Producció del servei STD. Per a més informació podeu seguir l&#39;enllaç al títol d&#39;aquest mateix destacat</description>
+    </item>
+    
+    <item>
+      <title>STD - En servei nou entorn de PRE</title>
+      <link>https://canigo.ctti.gencat.cat/destacats/2019-04-16-std-en-servei-nou-entorn-pre/</link>
+      <pubDate>Tue, 16 Apr 2019 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/destacats/2019-04-16-std-en-servei-nou-entorn-pre/</guid>
+      <description>En data 15/04/2019 s&#39;ha posat en servei el nou entorn de Preproducció del servei STD. Per a més informació podeu seguir l&#39;enllaç al títol d&#39;aquest mateix destacat</description>
+    </item>
+    
+    <item>
+      <title>Dates actualització tecnològica STD</title>
+      <link>https://canigo.ctti.gencat.cat/destacats/2019-03-26-std-actualitzacio-tecnologica/</link>
+      <pubDate>Tue, 26 Mar 2019 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/destacats/2019-03-26-std-actualitzacio-tecnologica/</guid>
+      <description>La data prevista per l&#39;actualització tecnològica del servei STD a Producció és el 23/4. Durant els pròxims dies es comunicarà la data de posada en servei del nou entorn de Preproducció. Per a més informació podeu seguir l&#39;enllaç al títol d&#39;aquest mateix destacat</description>
+    </item>
+    
+    <item>
+      <title>SGDE. Actualització tecnològica del STD</title>
+      <link>https://canigo.ctti.gencat.cat/destacats/2018-09-27-SGDE-Actualitzacio-tecnologica-std/</link>
+      <pubDate>Thu, 27 Sep 2018 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/destacats/2018-09-27-SGDE-Actualitzacio-tecnologica-std/</guid>
+      <description>Durant el primer trimestre del 2019 està previst realitzar una actualització tecnològica del servei STD. Els diferents integradors rebran les comunicacions pertinents per ser informats de les dates més rellevants</description>
+    </item>
+    
+    <item>
+      <title>SGDE. Nou servei Formularis HTML5</title>
+      <link>https://canigo.ctti.gencat.cat/destacats/2018-06-25-nou-servei-formularis-html5/</link>
+      <pubDate>Mon, 25 Jun 2018 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/destacats/2018-06-25-nou-servei-formularis-html5/</guid>
+      <description>Gràcies a la incorporació d&#39;AEM (Adobe Experience Manager) com a producte base del servei, es posa a disposició de les aplicacions la possibilitat d&#39;utilitzar formularis HTML5 adaptatius (Adaptive Forms)</description>
+    </item>
+    
+    <item>
+      <title>SGDE. Recordatori actualització entorn eFormularis PRO</title>
+      <link>https://canigo.ctti.gencat.cat/destacats/2018-05-18-sgde-recordatori-actualitzacio-eforms-pro/</link>
+      <pubDate>Fri, 18 May 2018 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/destacats/2018-05-18-sgde-recordatori-actualitzacio-eforms-pro/</guid>
+      <description>El dia 13 de Juny es farà efectiu el canvi d&#39;entorn de PRO d&#39;eFormularis derivat de l&#39;actualització tecnològica del servei. Es recomana a totes les aplicacions integradores finalitzar les proves dels seus formularis a PRE durant aquest mes de Maig</description>
+    </item>
+    
+    <item>
+      <title>SGDE. Comunicació dates disponibilitat nou entorn eFormularis</title>
+      <link>https://canigo.ctti.gencat.cat/destacats/2018-04-06-actualitzacio-eforms-aem/</link>
+      <pubDate>Fri, 06 Apr 2018 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/destacats/2018-04-06-actualitzacio-eforms-aem/</guid>
+      <description>El 23/4 es farà efectiu el canvi d&#39;entorn de PRE d&#39;eFormularis. El STD (Sistema de Transformació de STD) també es veu afectat amb un canvi d&#39;IPs. Per l&#39;entorn de PRO el canvi d&#39;entorn està previst pel 11/6</description>
+    </item>
+    
+    <item>
+      <title>SGDE. Actualització de plataforma al servei d&#39;eFormularis</title>
+      <link>https://canigo.ctti.gencat.cat/destacats/2018-03-09-actualitzacio-eforms-aem/</link>
+      <pubDate>Fri, 09 Mar 2018 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/destacats/2018-03-09-actualitzacio-eforms-aem/</guid>
+      <description>S&#39;està treballant en l&#39;actualització tecnològica de la plataforma, principalment en la del producte base del servei passant d&#39;Adobe LiveCycle a Adobe Experience Manager (AEM)</description>
+    </item>
+    
+    <item>
+      <title>Recordatori: Eliminació WS eFormularis v8 a l&#39;entorn de PRE</title>
+      <link>https://canigo.ctti.gencat.cat/destacats/recordatori-eliminacio-v8-pre/</link>
+      <pubDate>Fri, 21 Oct 2016 00:00:00 UTC</pubDate>
+      
+      <guid>https://canigo.ctti.gencat.cat/destacats/recordatori-eliminacio-v8-pre/</guid>
+      <description>Dijous 3/11/2016 es donarà de baixa la versió més antiga del WS d&#39;eFormularis a l&#39;entorn de PRE</description>
+    </item>
+    
+  </channel>
+</rss>

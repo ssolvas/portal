@@ -1,0 +1,1210 @@
+<!DOCTYPE html>
+<html xml:lang="ca-ES" lang="ca-ES" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+	<title>Guia d&#39;ajuda a l&#39;hora d&#39;omplir un DA</title>
+		<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico" />
+	<link href="/css/master.min.css" rel="stylesheet" type="text/css" />
+	<link href="/css/canigo.css" rel="stylesheet" type="text/css" />
+	<script src="/js/jquery.min.js" type="text/javascript"></script>
+
+	<script>
+		document.write("<meta name=\"titol\" content=\"Guia d\x27ajuda a l\x27hora d\x27omplir un DA\" />");
+		document.write("<meta name=\"description\" content=\"Ajuda a l\x27emplenat de la plantilla DA\" />");
+	</script>
+
+	
+
+</head>
+<body class="single">
+	<div class="contenidor unfixed">
+
+				
+
+		<header class="fons_header navbar navbar-default z-index-menu">
+			<div class="container" role="menu">
+				<div class="row clearfix menuNav">
+					<div class="col-md-3 col-xs-3 column visible-xs coloca ">
+						<button type="button" onclick="amunt();" title="Menu"
+							class="navbar-toggle pull-left" data-toggle="collapse"
+							data-target=".navbar-collapse">
+							<span class="sr-only">Toggle navigation</span> <span
+								class="icon-bar"></span> <span class="icon-bar"></span> <span
+								class="icon-bar"></span>
+						</button>
+					</div>
+
+					<div class="col-md-3 col-xs-6 col-offset-2 column visible-xs titol-mobil">
+						
+						<span class="white titol-mobil-destacat">canigo.ctti</span><span class="white">.gencat.cat</span>
+					</div>
+
+					<div class="col-md-3 col-xs-3 column visible-xs coloca1">
+						<button onclick="amunt();" type="button" title="Cerca"
+							class="ico_cerca " data-toggle="collapse" data-target=".dos">
+						</button>
+					</div>
+
+				</div>
+
+				<div class="collapse dos">
+					<div class="shadowBox">
+						<form class="navbar-form navbar-left primer" action="/cercador/" method="get"
+ 						onsubmit="location.href=this.action+'?q='+this.cerca_cap.value; return false;">
+							<div class="form-group">
+								<input type="search" class="form-control" name="q" id="cerca_cap"
+									title="Cerca"
+									placeholder="Cerca" />
+								<button type="button" title="Neteja" class="btn btn-default"></button>
+								<input type="submit" class="ocult" name="Cerca" value="Cerca" />
+							</div>
+						</form>
+					</div>
+				</div>	
+
+				<nav class="collapse navbar-collapse navbar-ex1-collapse ">
+				
+					<div class="row">
+						<div class="col-md-6 col-sm-4 column">
+							<a class="img-responsive logo" title="Generalitat de Catalunya"
+								href="https://ctti.gencat.cat/">gencat.cat</a>
+							<button class="menu_tancar visible-xs collapsed"
+								data-target=".navbar-collapse" data-toggle="collapse"
+								title="Tancar"></button>
+						</div>
+
+						<div class="col-md-6 col-sm-8 column hidden-xs hidden-mg">
+							<form class="navbar-form cercador_vermell hidden-xs pull-right" action="/cercador/"  method="get" onsubmit="location.href=this.action+'?q='+this.cerca2.value; return false;">
+								<div class="form-group">
+									<label class="hidden" for="cerca2">Cerca</label>
+									<input id="cerca2" class="form-control" type="search" 
+									placeholder="Cerca" name="q" title="Cerca">
+									<input class="btn btn-default" type="submit" title="Cerca" value="">
+								</div>
+							</form>
+
+							
+
+						</div>
+
+					</div>
+					<div class="col-xs-12 hidden-xs" id="nomPortal">
+                    	<span class="titol-cap-nou">Centre de Telecomunicacions i Tecnologies de la Informació</span>
+                    </div>					
+					<ul class="nav navbar-nav">
+
+			        	
+
+						<li>
+							<a class="dropdown-toggle" href='/' data-toggle='_dropdown'>Inici</a>
+						</li>
+
+						
+
+						<li>
+							<a class="dropdown-toggle" href='/arqctti' data-toggle='_dropdown'>Arquitectura CTTI</a>
+						</li>
+
+						
+
+						<li>
+							<a class="dropdown-toggle" href='/blog' data-toggle='_dropdown'>Blog</a>
+						</li>
+
+						
+
+						<li>
+							<a class="dropdown-toggle" href='/cloud' data-toggle='_dropdown'>Cloud</a>
+						</li>
+
+						
+
+						<li>
+							<a class="dropdown-toggle" href='/canigo' data-toggle='_dropdown'>Canigó</a>
+						</li>
+
+						
+
+						<li>
+							<a class="dropdown-toggle" href='/sic' data-toggle='_dropdown'>SIC</a>
+						</li>
+
+						
+
+						<li>
+							<a class="dropdown-toggle" href='/sgde' data-toggle='_dropdown'>SGDE</a>
+						</li>
+
+						
+
+						<li>
+							<a class="dropdown-toggle" href='/gicar' data-toggle='_dropdown'>GICAR</a>
+						</li>
+
+						
+
+						<li>
+							<a class="dropdown-toggle" href='/cs' data-toggle='_dropdown'>Centres de Suport</a>
+						</li>
+
+						
+
+						<li>
+							<a class="dropdown-toggle" href='/dadesref' data-toggle='_dropdown'>Gestió Tècnica de Dades</a>
+						</li>
+
+						
+
+						<li>
+							<a class="dropdown-toggle" href='/eventhub' data-toggle='_dropdown'>EventHub</a>
+						</li>
+
+						
+
+					</ul>
+
+				</nav>
+			</div>
+		</header>
+
+
+
+	</div>
+
+	<section class="border-start">
+
+						
+			
+
+			<article class="bgGrey">
+				<div class="container">
+					<div class="row">
+						<div class="capcelera_basica col-sm-12">
+							<div class="capcelera_basica_cont">
+								<ol class="breadcrumb filariana hidden-xs">
+									<li>
+										<a href="/">Inici</a>
+									</li>
+									<li class="breadcrumbs2">
+									
+										<a href="/da">
+											
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+										</a>
+										
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+									
+									</li>
+
+								</ol>
+
+								<h1 class="capcelera_flotant pull-left" data-txt=".title">
+									
+
+										
+											
+
+
+
+
+	Guia d&#39;ajuda a l&#39;hora d&#39;omplir un DA
+
+
+										
+
+									
+								</h1>
+
+								
+
+								
+								
+
+								
+
+								
+
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</article>
+
+			
+
+
+		   <div class="padding-xs container">
+	    	
+	    	   <i><b>Darrera actualització:</b></i> 16-11-2021
+	        
+           </div>
+           
+			<article class="padding-xs padding-sm padding-md contingut">				
+				<div class="container">
+ 		
+					
+				
+
+	
+
+
+					
+
+						
+
+<p>Plana web per ajudar a l&rsquo;emplenat de la plantilla del document d&rsquo;arquitectura, els següents apartats són accessibles des de la pròpia plantilla.</p>
+
+<hr />
+
+<h1 id="TaulaContiguts"><strong>Taula de Continguts</strong></h1>
+
+<ol>
+<li><a href="#Introduccio">Introducció</a>
+
+<ol>
+<li><a href="#Proposit">Propòsit</a></li>
+<li><a href="#Abast">Abast</a>
+
+<ol>
+<li><a href="#NecessitatsFonamentals">Necessitats fonamentals</a></li>
+<li><a href="#RestriccionsRequisitsNoFuncionals">Restriccions i Requisits no Funcionals</a></li>
+</ol></li>
+<li><a href="#PartsInteressades">Parts Interessades</a></li>
+</ol></li>
+<li><a href="#Vistes">Vistes</a>
+
+<ol>
+<li><a href="#VistaContext">Vista de Context</a></li>
+<li><a href="#VistaFuncional">Vista Funcional</a></li>
+<li><a href="#VistaInformacio">Vista d’Informació</a></li>
+<li><a href="#VistaConcurrencia">Vista de Concurrència</a></li>
+<li><a href="#VistaDesenvolupament">Vista de Desenvolupament</a></li>
+<li><a href="#VistaDesplegament">Vista de Desplegament</a></li>
+<li><a href="#VistaOperacional">Vista Operacional</a></li>
+</ol></li>
+<li><a href="#PerspertivesTransversals">Perspectives Transversals</a>
+
+<ol>
+<li><a href="#Seguretat">Seguretat</a></li>
+<li><a href="#RendimentEscalabilitat">Rendiment i escalabilitat</a></li>
+<li><a href="#Disponibilitat">Disponibilitat</a></li>
+<li><a href="#Internacionalitzacio">Internacionalització</a></li>
+</ol></li>
+<li><a href="#InformacioEspecificaProjecteAprovisionament">Imformació Específica pel projecte d&rsquo;aprovisionament</a>
+
+<ol>
+<li><a href="#InformacióRelativaContext">Informació relativa al context</a></li>
+<li><a href="#InformacioRelativaSIC">Informació relativa al SIC</a></li>
+<li><a href="#InformacioRelativaXarxesDominis">Informació relativa a xarxes i dominis DNS</a></li>
+<li><a href="#InformacioRelativaAprovisionamentInfraestructura">Informació relativa a l’aprovisionament d’Infraestructura</a></li>
+<li><a href="#EstrategiaMigracio">Estratègia de migració</a></li>
+</ol></li>
+</ol>
+
+<hr />
+
+<h1 id="disposicions-prèvies"><strong>Disposicions prèvies</strong></h1>
+
+<p><br>
+Enumerem a continuació diferents indicacions a tenir en compte a l&rsquo;hora d&rsquo;informar un DA:</p>
+
+<ul>
+<li><strong>Estructura del DA:</strong> No està permès modificar l&rsquo;estructura del DA. En cas de no informar un punt OPCIONAL, indicar <em>NO APLICA</em> en comptes d&rsquo;esborrar aquest punt. Si està permès, per contra, afegir punts per sota del segon nivell (per exemple a la vista de Desplegament -punt 2.6- afegir un nivell per sota seria &ldquo;2.6.1&rdquo;).</li>
+<li><strong>Versió de la plantilla:</strong> Com a mínim, la versió de la plantilla ha d&rsquo;èsser la 2.0, però es desitjable fer servir la versió més actual.</li>
+<li><strong>Dades de l&rsquo;aplicació (Codi de Diàleg i Nom):</strong> S&rsquo;han d&rsquo;informar, com a mínim, aquestes dues dades. En el cas de sistemes d&rsquo;informació nous, si encarà no se sap el codi de diàleg, es pot no informar, però cal indicar que aquesta dada no es coneix encara.</li>
+<li><strong>Dades de les revisions del document, l&rsquo;autoria i el responsable del CTTI:</strong> Les versions han de quadrar amb el quadre resum i el quadre de detall de canvis. A més es valida que el nom de l&rsquo;Arquitecte estigui a la llista d&rsquo;Arquitectes autoritzats pels lots.</li>
+<li><strong>Arquitecte que redacta i/o revisa el DA:</strong> Al menys un d&rsquo;ells (si no son el mateix) han d&rsquo;estar a la llista d&rsquo;Arquitectes autoritzats per els diferents lots.</li>
+</ul>
+
+<hr />
+
+<h1 id="Introduccio"><strong>Introducció</strong></h1>
+
+<h2 id="Proposit"><strong>Propòsit</strong></h2>
+
+<p>Explicar quin es el propòsit del Servei o Sistema d&rsquo;Informació definit al DA i quines necessitats cobreix/cobrirà l&rsquo;aplicació dintre del Departament u Organisme responsable.</p>
+
+<p><strong>Exemple</strong></p>
+
+<p><em>El propòsit, en el cas d&rsquo;haver de redactar el DA de Microsoft Outlook, seria &ldquo;Gestionar les bústies de correus dels usuaris&rdquo;.</em></p>
+
+<h6 id="inici-taulacontiguts"><a href="#TaulaContiguts">Inici</a></h6>
+
+<h2 id="Abast"><strong>Abast</strong></h2>
+
+<p>Indicar, relacionat amb el punt anterior, com el Sistema d&rsquo;informació donarà servei o cobrirà la necessitat indicada en el punt anterior. S&rsquo;ha d&rsquo;explicar, a grans trets, com serà aquest sistems d&rsquo;informació e identificar els consumidors d&rsquo;aquest Sistema.</p>
+
+<p><strong>Directrius</strong></p>
+
+<p><em>En aquest punt ha de quedar clar que es fa per aconseguir l&rsquo;objectiu i quins son els consumidors de l&rsquo;aplicació o servei (Interns Gencat, Col·laboradors Externs  o Públics).</em></p>
+
+<h6 id="inici-taulacontiguts-1"><a href="#TaulaContiguts">Inici</a></h6>
+
+<h2 id="NecessitatsFonamentals"><strong>Necessitats fonamentals</strong></h2>
+
+<p>Llistats dels requeriments/necessitats fonamentals que ha de cobrir l&rsquo;arquitectura de la solució/servei. Son els punts que condicionaran tota l&rsquo;arquitectura.</p>
+
+<p><strong>Exemple</strong></p>
+
+<ul>
+<li><em>Es necessari l&rsquo;accés al servei des de Intranet i Internet.</em></li>
+<li><em>Es requereix alta disponibilitat a totes les capes de la infraestrcutura.</em></li>
+<li><em>Es necessari l&rsquo;ús d&rsquo;una base de dades relacional.</em></li>
+<li><em>Es necessari l&rsquo;ús del servei transversal de e-Formularis.</em></li>
+</ul>
+
+<h6 id="inici-taulacontiguts-2"><a href="#TaulaContiguts">Inici</a></h6>
+
+<h2 id="RestriccionsRequisitsNoFuncionals"><strong>Restriccions i requisits no funcionals</strong></h2>
+
+<p>Informar els requisits que tenen en compte aspectes de la solució fora de la seva funcionalitat i que son importants o rellevants per l&rsquo;arquitectura.</p>
+
+<h6 id="inici-taulacontiguts-3"><a href="#TaulaContiguts">Inici</a></h6>
+
+<h2 id="PartsInteressades"><strong>Parts interessades</strong></h2>
+
+<p>Identificar i descriure les parts interessades per a l&rsquo;arquitectura. S&rsquo;han d&rsquo;informar totes les parts que estan involucrades ja no en la confecció del document, si no amb el servei.</p>
+
+<hr />
+
+<h1 id="vistes"><strong>Vistes</strong></h1>
+
+<h2 id="VistaContext"><strong>Vista Context:</strong></h2>
+
+<h3 id="DiagramesContext"><strong>Diagrama de Context</strong></h3>
+
+<p><strong>Exemple</strong></p>
+
+<div align="left">
+<img src="/images/PlantillaDA/Exemple_Context.JPG" style="width:500px;" />
+<br>
+<img src="/images/PlantillaDA/Exemple_Context_2.JPG" style="width:500px;" />
+</div>
+
+<p><strong>Directrius o requeriments a l&rsquo;hora de realitzar el diagrama:</strong></p>
+
+<ul>
+<li><em>Sistema.</em></li>
+<li><em>Entitats externes al Sistema.</em></li>
+<li><em>Interfícies (activitats que realitzen en la interacció amb les entitats externes).</em></li>
+<li><em>Localitzacions.</em></li>
+</ul>
+
+<h3 id="EntitatsExternesNivellFuncional"><strong>Entitats externes a nivell Funcional</strong></h3>
+
+<p>Definir les dependències del servei que es detallen al DA. Tant d&rsquo;entrada com de sortida, tot explicant el tipus de comunicació entre aquestes dependències i el sistema d&rsquo;informació. Caldrà tenir en compte sempre les eines transverals existents a la Generalitat. Si una solució transversal pot cobrir aquestes dependències, aquesta eina transversal haurà de ser l&rsquo;escollida.</p>
+
+<p>Caldrà també que aquestes dependències no siguin realment acoblaments entre aplicacions. Si fos així, aquestes dependències haurien de substituir-se per serveis. Cal que el CPD de cada sistema estigui informat.</p>
+
+<h3 id="Actors"><strong>Actors</strong></h3>
+
+<p>Enumerar els diferents actors que apareixen al diagrama de context i detarllar-ne la descripció d&rsquo;aquests. A més, caldrà explicar com s&rsquo;autentiquen al Sistema.</p>
+
+<h6 id="inici-taulacontiguts-4"><a href="#TaulaContiguts">Inici</a></h6>
+
+<h2 id="VistaFuncional"><strong>Vista Funcional:</strong></h2>
+
+<h3 id="DiagramaFuncional"><strong>Diagrama Funcional</strong></h3>
+
+<p><strong>Exemple</strong></p>
+
+<p><div align="left">
+<img src="/images/PlantillaDA/Exemple_Diagrama_Funcional.JPG" style="width:500px;" />
+</div>
+<br></p>
+
+<p><strong>Directrius o requeriments a l&rsquo;hora de realitzar el diagrama</strong>
+* <em>Sistema amb les seves funcionalitats segregades, sempre que no sigui una aplicació monolítica (cosa que aniría en contra del principi d&rsquo;Arquitectura 1.1.</em>
+* <em>Entitats externes al Sistema.</em></p>
+
+<h3 id="EstructuraFuncionalInternaSistema"><strong>Estructura funcional interna del sistema</strong></h3>
+
+<p>Detallar quina es l&rsquo;estrcutura interna de l&rsquo;aplicació. Segons el principi d&rsquo;arquitectura 1.1, les aplicacions han d&rsquo;estar segregades per funcionalitat/responsabilitat per evitar monolits. Detallar en aquest punt quina es aquesta estructura interna de l&rsquo;aplicació.</p>
+
+<p><strong>Directrius</strong>
+* <em>Verificar que aquestes relacions no suposin acoblaments entre serveis. Ni que es tracti d&rsquo;eines transversals del CTTI com GICAR o l&rsquo;Antivirus corporatiu. Cal una breu descripció dels diferents mòduls e interfícies que el sistema fa servir.</em>
+* <em>Verificar que l&rsquo;aplicació te mòduls separats per funcionalitat. Que es defineixen mòduls amb una petita descripció de cada mòdul (2-3 línies).</em></p>
+
+<h6 id="inici-taulacontiguts-5"><a href="#TaulaContiguts">Inici</a></h6>
+
+<h2 id="VistaInformacio"><strong>Vista d&rsquo;Informació:</strong></h2>
+
+<h3 id="DadesCaracterPersonal"><strong>Dades de caràcter personal</strong></h3>
+
+<p>Ha d&rsquo;estar contestat i que tingui sentit amb els punts &ldquo;Finalitat i ús de les dades (RGPD)&rdquo; i &ldquo;Nivell de RGPD assignat al fitxer&rdquo;.</p>
+
+<h3 id="DadesCaracterPersonal-1"><strong>Finalitat i ús de les dades (RGPD)</strong></h3>
+
+<p>Ha d&rsquo;estar contestat i que tingui sentit amb els punts &ldquo;Dades de caràcter personal&rdquo; i &ldquo;Nivell de RGPD assignat al fitxer&rdquo;.</p>
+
+<h3 id="NivellRGPD"><strong>Nivell de RGPD assignat al fitxer</strong></h3>
+
+<p>Ha d&rsquo;estar contestat i que tingui sentit amb els punts &ldquo;Dades de caràcter personal&rdquo; i &ldquo;Finalitat i ús de les dades (RGPD)&rdquo;.</p>
+
+<p><strong>Quines dades es consideren Bàsiques:</strong></p>
+
+<ul>
+<li>Dades identificatives (nom, cognoms, DNI, correu electrònic, adreça, telèfon, IP)</li>
+<li>Dades econòmiques (comptes bancaris, targetes de crèdit, nòmines,&hellip;)</li>
+<li>Característiques físiques</li>
+<li>Característiques personals (estat civil, edat, sexe, nacionalitat,&hellip;)</li>
+<li>Dades acadèmiques o professionals</li>
+</ul>
+
+<p><strong>Quines dades es consideren Especialment protegides:</strong></p>
+
+<ul>
+<li>Origen ètnic o racial</li>
+<li>Opinions polítiques</li>
+<li>Conviccions religioses o filosòfiques</li>
+<li>Afiliació sindical</li>
+<li>Dades biomètriques</li>
+<li>Dades relatives a la salut</li>
+<li>Dades relatives a la vida sexual o orientacions sexuals</li>
+<li>Dades relatives a condemnes i infraccions penals</li>
+<li>Dades de geolocalització</li>
+<li>Dades financeres</li>
+</ul>
+
+<h3 id="NivellSensibilitatDades"><strong>Nivell de sensibilitat de les dades</strong></h3>
+
+<ul>
+<li><p><strong>MOLT CRÍTIC:</strong> La informació és altament confidencial, accessible per un nombre molt restringit d’individus, amb requeriments d’integritat, autenticitat i traçabilitat molt alts? (exemples: dades de Seguretat Pública, informació policial, gestió de claus criptogràfiques, etc.)</p></li>
+
+<li><p><strong>CRÍTIC:</strong> La informació és confidencial, restringida a un cercle reduït d’individus, amb requeriments de xifrat i traçabilitat dels accessos?</p>
+
+<p><strong>Exemples</strong></p>
+
+<p><em>Gestió de centres penitenciaris, eleccions, gabinets jurídics, subvencions, contractacions, plataformes transversals de suport a la tramitació, actuació de cossos d&rsquo;emergències, inventari d&rsquo;infraestructures crítiques, plans de protecció civil, etc.</em></p></li>
+
+<li><p><strong>SENSIBLE:</strong> La informació és restringida a àrees o unitats amb requeriments avançats de control d&rsquo;accés i garanties d&rsquo;integritat i autenticitat?</p>
+
+<p><strong>Exemples</strong></p>
+
+<p><em>Registre de ciutadans amb dades acadèmiques, sistemes de gestió de personal, llistes de col·lectius, la divulgació de les quals podria tenir repercussió política, registres d&rsquo;empreses amb informació reservada, gestió de dades pressupostàries i econòmic-financeres, gestió del deute, sistemes d’ anàlisi de dades: estadístiques de serveis/operativa i quadres de comandament, actuacions de cossos operatius de la Generalitat (exceptuant els d&rsquo;emergències), gestió de flotes d&rsquo;emergència, tràmits de pagament on-line, tràmits electrònics i portals de tràmits, auditories, gestió de riscos, plans de continuïtat de negoci, assistència jurídica, gestió de la publicació d’informació (previ a la publicació).</em></p></li>
+
+<li><p><strong>INTERN:</strong> Hi ha informació no crítica on es pot permetre una lleu pèrdua d&rsquo;integritat e informació?</p>
+
+<p><strong>Exemples</strong></p>
+
+<p><em>Intranets departamentals, plataformes col·laboratives, fòrums, blogs, registres de professionals, convocatòries, concursos de personal, oposicions, usuaris d&rsquo;aplicació, assistents a cursos, entrada/sortida de documents, gestió d&rsquo;inventaris, qüestions parlamentàries, plecs, plans d&rsquo;actuació, gestió de compres, consultes i suggeriments, queixes sense dades sensibles, infraestructures, expedients sense informació anterior, etc.</em></p></li>
+
+<li><p><strong>PUBLIC:</strong> La informació és pública sense restriccions de difusió del contingut.</p></li>
+</ul>
+
+<h3 id="RequerimentLegalRetencióDades"><strong>Requeriment legal de retenció de les dades</strong></h3>
+
+<p>Indicar el temps requerit de retenció de la informació per motius legals o anàlisis històric. En el cas d&rsquo;escollir l&rsquo;opció &ldquo;Altres&rdquo; cal tenir en compte que s&rsquo;haurà de pactar amb CPD.</p>
+
+<h3 id="ModelEmmagatzematInformació"><strong>Model d&rsquo;emmagatzemat de la informació</strong></h3>
+
+<p>Identificar els tipus de bases de dades utilitzats. En cas d&rsquo;escollir més d&rsquo;un tipus de base de dades caldrà especificar per a que es fa servir cada tipus de base de dades. Les dades descrites en aquest punt han de quadrar amb la Vista de Desplegament (2.6)</p>
+
+<h3 id="VolumetriesEsperadesInformació"><strong>Volumetries esperades d&rsquo;informació</strong></h3>
+
+<p>Permet justificar l&rsquo;estimació de tamany a la vista de desplegament. Tot i tractar-se d&rsquo;una valoració aproximada o estimativa, la resposta a aquest punt ha de ser resultat d&rsquo;una reflexió prèvia. No es demana un número sense més, si no producte d&rsquo;una estimació bassada en un anàlisi encara que sigui a alt nivell.</p>
+
+<h3 id="DiagramaEntitatRelació"><strong>Diagrama Entitat/Relació</strong></h3>
+
+<p>Diagrama de les principals entitats de dades del servei o solució.</p>
+
+<h3 id="EntitatsReferència"><strong>Entitats de referència</strong></h3>
+
+<p>En cas de fer servir entitats de referència, enumerar aquelles que en fa ús el servei/solució. <a href="https://canigo.ctti.gencat.cat/dadesref/dadesref/">Llistat de les entitats identificades</a>.</p>
+
+<h3 id="DiagramaFlux"><strong>Diagrama de flux</strong></h3>
+
+<p>Diagrama de Flux de la informació.</p>
+
+<h6 id="inici-taulacontiguts-6"><a href="#TaulaContiguts">Inici</a></h6>
+
+<h2 id="VistaConcurrencia"><strong>Vista de Concurrència:</strong></h2>
+
+<h3 id="UsuarisSimultanis"><strong>Usuaris Simultanis</strong></h3>
+
+<p>Estimar quants usuaris poden accedir simultàniament al sistema d&rsquo;informació</p>
+
+<h3 id="IdentificacióProcessos"><strong>Identificació de processos</strong></h3>
+
+<p>Validar que la proposta per administrat les tasques o procesos batch permeti monitoritzar la seva correcta execució. No serveix una execució amb Cron que no dona cap garantia d&rsquo;execució.</p>
+
+<p><strong>Directrius</strong></p>
+
+<p><em>Aquest es el punt per informar sobre aquests processos. No pot aparèixer a cap altre punt del DA. Si això passa, remetrem a que s&rsquo;informi aquí.</em></p>
+
+<h6 id="inici-taulacontiguts-7"><a href="#TaulaContiguts">Inici</a></h6>
+
+<h2 id="VistaDesenvolupament"><strong>Vista Desenvolupament:</strong></h2>
+
+<h3 id="TecnologiesDesenvolupament"><strong>Tecnologies de desenvolupament</strong></h3>
+
+<p>Detallar quines tecnologies s&rsquo;utilitzen per cada una de les capes.</p>
+
+<p><strong>Directrius</strong></p>
+
+<ul>
+<li><em>En cas d&rsquo;aplicacio JEE s&rsquo;ha de fer ús del Framework Canigó</em></li>
+<li><em>En el cas de desenvolupament en .Net, i en cas de ser una app nova, s&rsquo;ha de dur a terme amb .NetCore</em></li>
+<li><em>S&rsquo;ha de respectar el principi d&rsquo;Arquitectura 2.2 (<a href="https://canigo.ctti.gencat.cat/principis/arq-si/">Estabilitat de les versions de programari</a>)</em>
+<br /></li>
+</ul>
+
+<h3 id="IdentificarSoftwareLlibreriesTercersUtilitzades"><strong>Identificar software/llibreries de tercers utilitzat</strong></h3>
+
+<p>Identificar aquelles llibreries que no estan en un repositori confiable.</p>
+
+<h3 id="RepositoriCodi"><strong>Repositori de codi</strong></h3>
+
+<p>Informació del repositori on es pujarà el codi font i detalls respecte als artefactes a desplegar al GitLab. Ha d&rsquo;esser un (com a mínim) d&rsquo;aquests. Es pot donar el cas que el codi estigui a un repositori general i que també estigui en un altre dels repositoris.</p>
+
+<ul>
+<li>Repositori Generals</li>
+<li>Repositoris particulars Departamentals</li>
+<li>Altres / Excepcions</li>
+</ul>
+
+<p><strong>Directrius</strong></p>
+
+<p><em>S&rsquo;ha de proporcionar tota la informació necessària per agilitzar al màxim la integració des de Suport SIC.</em></p>
+
+<p><em>La integració amb el SIC, si no es així caldrà donar d&rsquo;alta una excepció d&rsquo;arquitectura, excepte en el cas de tractar-se d&rsquo;un producte comercial en comptes d&rsquo;un desenvolupament a mida.</em></p>
+
+<h3 id="IdentificarJocsCaràcters"><strong>Identificar Jocs de caràcters</strong></h3>
+
+<p>S&rsquo;ha d&rsquo;informar obligatòriament.</p>
+
+<h3 id="JustificacionsVistaDesenvolupament"><strong>Justificacions de la vista de desenvolupament</strong></h3>
+
+<p>Cal que cadascuna de les tecnologíes estigui aquí enumerada i justificada la seva utilització.</p>
+
+<h3 id="DiagramesDesenvolupament">Diagrama Desenvolupament</h3>
+
+<p><strong>Exemple</strong></p>
+
+<p><div align="left">
+<img src="/images/PlantillaDA/Exemple_Diagrama_Desenvolupament.JPG" style="width:400px;" />
+</div>
+<br></p>
+
+<h6 id="inici-taulacontiguts-8"><a href="#TaulaContiguts">Inici</a></h6>
+
+<h2 id="VistaDesplegament">Vista Desplegament:</h2>
+
+<h3 id="DiagramesPlataformaExecucioXarxa"><strong>Diagrames de plataforma d&rsquo;execució i de Xarxa</strong></h3>
+
+<p>Afegir diagrames que ajudi a entendre quina es l&rsquo;arquitectura de la infraestructura.</p>
+
+<p><strong>Directrius</strong></p>
+
+<p><em>Cal que estigui informat i son clarament identificables tots els elements indicats a les taules d&rsquo;aquesta mateixa vista. Si els esquemes de PRE i PRO son diferents, s&rsquo;han de presentar dos diagrames.</em></p>
+
+<h3 id="TaulaCloudPrivat"><strong>Taula d&rsquo;instàncies on-premise</strong></h3>
+
+<p>S&rsquo;ha de crear una taula com la de la plantilla per cada un dels entorns que formen part del servei. Aquesta taula es farà servir per a les instàncies on-premise.</p>
+
+<p><strong>Detall de cada un dels camps de la taula:</strong></p>
+
+<table>
+<thead>
+<tr>
+<th><strong>Element</strong></th>
+<th><strong>Descripció</strong></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><strong>Identificador d&rsquo;instància</strong></td>
+<td>Identificador únic que se li dona a aquella instancia dintre del document d&rsquo;arquitectura, aquest identificador s&rsquo;utilitzarà després per referenciar la instancia a la taula d&rsquo;emmagatzematge i a l&rsquo;apartat 4.4 on s&rsquo;ha d&rsquo;identificar quins servidors / instancies són noves, quines han tingut canvis o quines són compartides amb altres serveis / solucions del departament.</td>
+</tr>
+
+<tr>
+<td><strong>Tipus de Servei</strong></td>
+<td><br>PaaS <br>IaaS <br>Hosting</td>
+</tr>
+
+<tr>
+<td><strong>Programari i versió</strong></td>
+<td>Nom del programari i versió que s&rsquo;instal·la. Ha d&rsquo;estar alineat amb el full de ruta del programari. En cas de sistemes/serveis nous, caldrà que les versions siguin les actuals segons el <a href="https://qualitat.solucions.gencat.cat/estandards/estandard-full-ruta-programari/#annex-a-normatiu-programari-estandarditzat:29540b9fba4cb00170570a076b9df531">Full de Ruta del CTTI</a>.</td>
+</tr>
+
+<tr>
+<td><strong>Talla i recursos adicionals</strong></td>
+<td>Indicar la talla de la instancia segons la següent taula i especificar si es necessari afegir algun recurs addicional com pot ser vCPUs o Gb de ram. <br><img src="/images/PlantillaDA/Talles.JPG" style="width:500px;" /></td>
+</tr>
+
+<tr>
+<td><strong>Nivell de Servei</strong></td>
+<td>Continu - AD 24x7 <br>Continu 24x7 <br>Laboral - AD 12x5 <br>Laboral 12x5 <br>No productiu 12x5</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="TaulaDisc"><strong>Taula d&rsquo;emmagatzematge</strong></h3>
+
+<p><strong>Detall de cada un dels camps de la taula:</strong></p>
+
+<table>
+<thead>
+<tr>
+<th><strong>Element</strong></th>
+<th><strong>Descripció</strong></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><strong>Identificador d&rsquo;Instància</strong></td>
+<td>Per relacionar la taula d&rsquo;elements de catàleg cloud amb el disc addicional es fa us d&rsquo;aquest camp, ha de coincidir amb l&rsquo;identificador de la instancia que se li ha donat a la taula anterior.</td>
+</tr>
+
+<tr>
+<td><strong>Tipus de disc</strong> {#TipusDisc}</td>
+<td><strong>Blocs</strong> - Aquest tipus d’emmagatzematge està especialment pensat per quan es necessita una capacitat de disc dur en brut, com per exemple, espai per a una BBDD Oracle. <br><strong>Fitxers</strong> - Aquest tipus d’emmagatzematge està especialment pensat per quan l’usuari necessita accés a una carpeta compartida de fitxers.</td>
+</tr>
+
+<tr>
+<td><strong>Mida del disc</strong></td>
+<td>Indicar la mida en GB del disc adicional necessari per la instancia indicada al camp &ldquo;Identificador d&rsquo;Instancia&rdquo;.</td>
+</tr>
+
+<tr>
+<td><strong>Tier - Nivell de disc</strong>  {#NivellDisc}</td>
+<td><strong>Alt rendiment (TIER 1):</strong> Dades d’alta criticitat, fitxers que s’accedeixen sovint, etc. <br><strong>Mig rendiment (TIER 2):</strong> Fitxers que no s’accedeixen gaire sovint. <br><strong>Alta Capacitat (TIER 3):</strong> Copies de seguretat.</td>
+</tr>
+
+<tr>
+<td><strong>RTO i RPO</strong> {#RTORPO}</td>
+<td><strong>RTO:</strong> 2 hores / 8  hores / 12 hores <br><strong>RPO:</strong> RPO Zero (No pot perdre cap transacció) /  RPO Darrer Backup /</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="TaulaCloudPrivat-1"><strong>Taula d&rsquo;instancies cloud privat (CPD)</strong></h3>
+
+<p>Taula on es detalla la informació relativa als contenidors que formen part del servei.</p>
+
+<p><strong>Detall de cada un dels camps de la taula:</strong></p>
+
+<table>
+<thead>
+<tr>
+<th><strong>Element</strong></th>
+<th><strong>Descripció</strong></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><strong>Identificador d&rsquo;instància</strong></td>
+<td>Identificador únic que se li dona a aquella instancia dintre del document d&rsquo;arquitectura, aquest identificador s&rsquo;utilitzarà després per referenciar la instancia a l&rsquo;apartat 4.4 on s&rsquo;ha d&rsquo;identificar quins servidors / instancies són noves, quines han tingut canvis.</td>
+</tr>
+
+<tr>
+<td><strong>Nombre de Pods / Contenidors</strong></td>
+<td>Un POD es la unitat mes petita a crear a Kubernetes, en la majoria dels casos un POD equival a un contenidor, en aquest camp s&rsquo;ha d&rsquo;indicar el nombre de pods a crear del tipus que es detalla a la resta de camps de la taula.</td>
+</tr>
+
+<tr>
+<td><strong>Programari i versió / Imatge Docker</strong></td>
+<td>Nom del programari i versió que s&rsquo;instal·la. Ha d&rsquo;estar alineat amb el full de ruta del programari. Si es fa ú d&rsquo;una imatge Docker ja existent al repositori oficial, indicar el seu nom.</td>
+</tr>
+
+<tr>
+<td><strong>Memòria Ram  i/o recursos addicionals</strong></td>
+<td>Memòria Ram assignada al Pod / Contenidor. <br>En algunes plataformes de cloud es requereix altre tipus de dades de recursos addicionals, per exemple CPU.</td>
+</tr>
+
+<tr>
+<td><strong>Disc Persistent</strong></td>
+<td>Indicar si es necessari o no disc persistent, en cas afirmatiu s&rsquo;ha d&rsquo;informar de la mida del disc en Gb.</td>
+</tr>
+
+<tr>
+<td><strong>Administrat per CPD</strong></td>
+<td>Indicar si el Pod / Contenidor es administrat per part del proveïdor de CPD o no disposa d&rsquo;administració.</td>
+</tr>
+</tbody>
+</table>
+
+<p>En aquest cas, s&rsquo;haurà d&rsquo;informar també la taula amb el total de recursos (RAM i CPU) per al global del Namespace.</p>
+
+<h3 id="TaulaCloudPublic"><strong>Taula d&rsquo;instancies cloud públic (Azure, Bluemix, AWS)</strong></h3>
+
+<p>Per remetre la informació relativa a instàncies aprovisionades en cloud públic, ja sigui en format Gestionat o No Gestionat, caldrà afegir l&rsquo;export de la calculadora, no per cap control de tipus pressupostari, si no per tenir l&rsquo;enumeració dels elements contractats.</p>
+
+<h3 id="TaulaCloudPublic-1"><strong>Taula per arquitectures de la PowerPlatform Suite</strong></h3>
+
+<table>
+<thead>
+<tr>
+<th><strong>Element</strong></th>
+<th><strong>Descripció</strong></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><strong>Tipus de Producte de Power Platform</strong></td>
+<td>Marcar aquells productes de la PowerPlatform Suite involucrats a l&rsquo;Arquitectura de la solució</td>
+</tr>
+
+<tr>
+<td><strong>Nom dels entorns (SANDBOX, Production, etc.) i Grups de Seguretat</strong></td>
+<td>Enumerar els entorns i els grups de seguretat associat a cada entorn. Indicar a més, només en el cas que no sigui West Europe, la regió i la finalitat de cadascuan dels entorns</td>
+</tr>
+
+<tr>
+<td><strong>Administradors dels entorns (indicar adreça de correu gencat)</strong></td>
+<td>Nom i correu electrònic dels administradors de cadascun dels entorns</td>
+</tr>
+
+<tr>
+<td><strong>Requereix CDS</strong></td>
+<td>Indicar si requereix o no base de dades</td>
+</tr>
+
+<tr>
+<td><strong>Si requereix CDS</strong></td>
+<td>Enumerar les característiques de la Base de Dades en cas d&rsquo;haver contestat SI en el punt anterior</td>
+</tr>
+
+<tr>
+<td><strong>Tipus d’aplicació de Power Platform</strong></td>
+<td><strong>Model-driven</strong> <br><strong>Canvas</strong> <br><strong>Portals</strong></td>
+</tr>
+
+<tr>
+<td><strong>Tipus de Connectors?</strong></td>
+<td>Enumerar els connectors amb orígens de dades, tant si son Standard com si son Premium</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="altres-dades-rellevants-pel-desplegament"><strong>Altres dades rellevants pel desplegament:</strong></h3>
+
+<h4 id="xarxes-d-accés"><strong>Xarxes d&rsquo;accés</strong></h4>
+
+<p>Informar de quines son les xarxes que s&rsquo;utilitzen per l&rsquo;acces a l&rsquo;aplicació, protocol utilitzat i regles de firewall necessaries per connectar els diferents equips.</p>
+
+<p><strong>Directrius</strong></p>
+
+<p><em>En el cas de fer crides a serveis REST, cal fer ús de ports segurs</em></p>
+
+<h4 id="servei-transversal-smtp"><strong>Servei transversal SMTP</strong></h4>
+
+<p>Verificar si el servei necessita realitzar enviaments de correus electrònics</p>
+
+<p><strong>Directrius</strong></p>
+
+<p><em>Principi d&rsquo;Arquitectura 1.6.2 (Servidors SMTP transversals - <a href="https://canigo.ctti.gencat.cat/principis/arq-si/">https://canigo.ctti.gencat.cat/principis/arq-si/</a>)</em></p>
+
+<h4 id="proxypass-sortida-a-internet"><strong>ProxyPass (Sortida a Internet)</strong></h4>
+
+<p>Informar si el servei necessita sortida a internet. Fent crides altres serveis per executar processos o obtenir informació.</p>
+
+<p><strong>Directrius</strong></p>
+
+<p><em>Principi d&rsquo;Arquitectura 1.6.3 (Accés a internet des de xCAT - <a href="https://canigo.ctti.gencat.cat/principis/arq-si/">https://canigo.ctti.gencat.cat/principis/arq-si/</a>)</em></p>
+
+<h4 id="altres-serveis-tècnics-utilitzats"><strong>Altres serveis tècnics utilitzats</strong></h4>
+
+<p>Informar si es fan servir d&rsquo;altres serveis tecnics com els protocols IMAP o POP3</p>
+
+<h3 id="justificacions-de-les-decisions-de-la-vista-de-desplegament"><strong>Justificacions de les decisions de la Vista de Desplegament</strong></h3>
+
+<p>Cal que cadascuna de les tecnologíes estigui enumerada i justificada la seva utilització. A més, cal indicar quins entorns hi ha (INT, PRE, PRO, FOR)</p>
+
+<h6 id="inici-taulacontiguts-9"><a href="#TaulaContiguts">Inici</a></h6>
+
+<h2 id="VistaOperacional"><strong>Vista Operacional:</strong></h2>
+
+<h3 id="GestioLogsiMonitorització"><strong>Gestió de logs i monitorització</strong></h3>
+
+<p>Detallar informació respecte als següents punts:</p>
+
+<ul>
+<li>Quina activitat ha de ser registrada per poder obtenir la informació crítica del servei.</li>
+<li>Gestió d&rsquo;alertes.</li>
+<li>Monitoratge del rendiment.</li>
+<li>Rotació dels logs i polítiques de retenció.</li>
+<li>La ubicació del logs (ha de ser l&rsquo;establerta als estàndard CTTI)&rdquo;</li>
+</ul>
+
+<h3 id="PolitiquesRetencio"><strong>Polítiques de rotació i retenció de logs</strong></h3>
+
+<ul>
+<li><p><strong>Estàndard:</strong> Diària incremental amb 2 setmanes de retenció, setmanal completa amb 1 mes de retenció, mensual completa amb 3 mesos de retenció i anual completa amb 1 any de retenció (cobrint 1 any i 3 mesos de retenció de dades)</p></li>
+
+<li><p><strong>Avançada:</strong> Diària incremental amb 1 mes de retenció, setmanal completa amb 2 mesos de retenció, mensual completa amb 6 mesos de retenció i anual completa amb 2 anys de retenció (cobrint 2 anys i 6 mesos de retenció de dades)</p></li>
+
+<li><p><strong>Especial:</strong> Diària incremental amb 1 mes de retenció, setmanal completa amb 2 mesos de retenció, mensual completa amb 12 mesos de retenció i anual completa amb 5 anys de retenció. (cobrint 6 anys de retenció de dades)</p></li>
+</ul>
+
+<h3 id="UbicacióLogs"><strong>Ubicació de logs</strong></h3>
+
+<p>Indicar a on s&rsquo;ubicarán els logs.</p>
+
+<p><strong>Directrius</strong></p>
+
+<p><em>Principi d&rsquo;Arquitectura 2.4.4 (<a href="https://canigo.ctti.gencat.cat/principis/arq-si/">Nomenclatura de les infraestructures</a>)</em></p>
+
+<p><em>Cal respectar l&rsquo;estandart CTTI de nomenclatura (<a href="https://qualitat.solucions.gencat.cat/estandards/estandard-nomenclatura-infraestructures/">Estandard CTTI per a la nomenclatura de les infraestructures</a>)</em></p>
+
+<h3 id="DetallSondes"><strong>Detall de les sondes</strong></h3>
+
+<p>Definició, si es que hi ha sondes que verifiquen el correcte funcionament del servei, de que estan controlant i que resultat s&rsquo;espera per validar que el servei està funcionant correctament.</p>
+
+<hr />
+
+<h1 id="PerspertivesTransversals"><strong>Perspectives Transversals</strong></h1>
+
+<h2 id="Seguretat"><strong>Seguretat</strong></h2>
+
+<h3 id="MesuresSeguretatBàsiquesCesicat"><strong>Mesures de seguretat bàsiques de Cesicat</strong></h3>
+
+<p>Indicar que s&rsquo;han llegit i es tindran en compte les mesures de seguretat vigents a l&rsquo;hora d&rsquo;implementar l&rsquo;arquitectura del servei/solució.</p>
+
+<p><strong>Mesures de seguretat vigents a l&rsquo;hora d&rsquo;implementar l&rsquo;arquitectura del servei/solució:</strong></p>
+
+<ul>
+<li>Els entorns de Producció han d&rsquo;estar separats de forma física i lògica dels entorns no productius.</li>
+<li>La solució ha de tenir les diferents capes de la infraestructura (Publicació, Aplicació, BBDD) segregades tant a nivell físic com lògic.</li>
+<li>La publicació de qualsevol aplicació oberta a internet s&rsquo;ha de realitzar des d&rsquo;una DMZ.</li>
+<li>L&rsquo;aplicació no ha de ser accessibles des de Internet en entorns no productius.</li>
+<li>Les transmissions de dades en xarxes públiques han d&rsquo;anar xifrades.</li>
+<li>Els servidors i middlewares han de complir amb les guies de versionat del CESICAT o, en el seu defecte, amb les guies de versionat del fabricant.</li>
+<li>Només s&rsquo;han d&rsquo;obrir aquells ports que siguin estrictament necessaris per l&rsquo;ús del sistema d&rsquo;informació.</li>
+<li>Cal realitzar una anàlisi tècnica de vulnerabilitats de la infraestructura dels diferents entorns abans de la seva posada en producció.</li>
+<li>S&rsquo;ha de realitzar una anàlisi tècnica de vulnerabilitats dels frontals web abans de la posada en producció.</li>
+<li>Cal disposar de traçabilitat (traces d&rsquo;aplicació i d&rsquo;administració) de les accions que es realitzen en l&rsquo;aplicació.</li>
+<li>Cal definir la matriu d&rsquo;escalat per la gestió dels incidents de seguretat.</li>
+<li>L&rsquo;autenticació a l&rsquo;aplicació s&rsquo;ha de realitzar utilitzant mecanismes corporatius (GICAR, VALID, &hellip;).</li>
+<li>Els entorns no Productius no poden contenir dades reals o aquestes han d&rsquo;estar anonimitzades.</li>
+<li>Si l&rsquo;aplicació només és utilitzada pels empleats de la Generalitat, aquesta no hauria d&rsquo;estar publicada fora de la xarxa corporativa.</li>
+</ul>
+
+<h3 id="SistemaAutenticació"><strong>Sistema d&rsquo;autenticació</strong></h3>
+
+<p>Indicar el sistema d&rsquo;autenticació que el servei fa servir per permetre l&rsquo;accés a aquest</p>
+
+<p><strong>Directrius</strong></p>
+
+<p><em>Principi d&rsquo;Arquitectura 1.6.4 (<a href="https://canigo.ctti.gencat.cat/principis/arq-si/">Gestió d&rsquo;identitats</a>)</em></p>
+
+<p><em>En els nous serveis es obligatori la integració amb GICAR. En cas contrari caldrà excepció d&rsquo;Arquitectura.</em></p>
+
+<h3 id="ModalitatIntegracióGICAR"><strong>Modalitat d&rsquo;integració amb GICAR</strong></h3>
+
+<p>Definir quina modalitat d&rsquo;integració amb GICAR s&rsquo;està fent servir</p>
+
+<p><strong>Directrius</strong></p>
+
+<p><em>Per més detall de cada una de les modalitats consultar el <a href="https://canigo.ctti.gencat.cat/gicar/">Portal Canigó</a></em></p>
+
+<h6 id="inici-taulacontiguts-10"><a href="#TaulaContiguts">Inici</a></h6>
+
+<h2 id="RendimentEscalabilitat"><strong>Rendiment i escalabilitat</strong></h2>
+
+<h3 id="RequerimentsRendimentContinuarDavantPics"><strong>Requeriments de rendiment continuar i davant pics</strong></h3>
+
+<p>Detallar en quin percentatge de consum de recursos es tenen que mantenir els servidors en un ús normal i quin es el máxim d&rsquo;ús en una situació de pic.</p>
+
+<h3 id="MesuresAdoptadesAssolirRendimentNecessari"><strong>Mesures adoptades per tal d&rsquo;assolir el rendiment necessari</strong></h3>
+
+<p>L’aplicació està preparada per l’escalabilitat horitzontal?</p>
+
+<h6 id="inici-taulacontiguts-11"><a href="#TaulaContiguts">Inici</a></h6>
+
+<h2 id="Disponibilitat"><strong>Disponibilitat</strong></h2>
+
+<h3 id="RTO"><strong>RTO del Sistema</strong></h3>
+
+<p>Temps que pot estar el negoci amb el servei aturat.</p>
+
+<p><strong>Directrius</strong></p>
+
+<p><em>En cas d&rsquo;escollir un RTO de 2 hores, totes les instàncies de l&rsquo;arquitectura hauran d&rsquo;estar en Alta Disponibilitat.</em></p>
+
+<h3 id="RPO"><strong>RPO (Punt de recuperació objectiu)</strong></h3>
+
+<p>En cas d’incidència quin es desitja que sigui el punt de recuperació.</p>
+
+<h3 id="DefinirHorariServeiHabitual"><strong>Definir horari de servei habitual</strong></h3>
+
+<p>Laboral (12x5), Continu (24x7) o Altres (definir).</p>
+
+<h3 id="AfectacióIndisponiblitatEntitatsExternes"><strong>Afectació per la indisponibilitat d&rsquo;entitats externes</strong></h3>
+
+<p>Presentar l&rsquo;estudi de com afecta la indisponibilitat de les entitats externes al servei i proposar mesures per reduir o anular la seva afectació.</p>
+
+<p><strong>Directrius</strong></p>
+
+<p><em>No s&rsquo;ha d&rsquo;informar la indisponibilitat en el cas d&rsquo;eines transversals (GICAR, Ironports, antivirus, etc.) si no les entitats externes indicades a la Vista de Context.</em></p>
+
+<h6 id="inici-taulacontiguts-12"><a href="#TaulaContiguts">Inici</a></h6>
+
+<h2 id="Internacionalitzacio"><strong>Internacionalització</strong></h2>
+
+<h3 id="IdiomesSuportaSistema"><strong>Idiomes que suporta el sistema</strong></h3>
+
+<p>Enumerar l&rsquo;idioma o idiomes que el servei ofereix.</p>
+
+<h3 id="DefinirResolUsMultilingüe"><strong>Definir com es resol l&rsquo;ús multilingüe</strong></h3>
+
+<p>En cas que el punt anterior sigui informat amb mes d&rsquo;un idioma, explicar com es resol aquest ús.</p>
+
+<hr />
+
+<h1 id=" #InformacioEspecificaProjecteAprovisionament"><strong>Informació específica pel projecte d&rsquo;aprovisionament</strong></h1>
+
+<p><br></p>
+
+<p><strong>Directrius</strong></p>
+
+<p><em>Aquest apartat del DA es l&rsquo;únic que s&rsquo;ha d&rsquo;informar des del punt de vista del projecte i no des del punt de vista d&rsquo;Arquitectura. Caldrà que sigui molt precís en els nous elements de la infraestructura del servei, en aquells que canvien de talla, o de versió de programari.</em></p>
+
+<h6 id="inici-taulacontiguts-13"><a href="#TaulaContiguts">Inici</a></h6>
+
+<h2 id="InformacioRelativaContext"><strong>Informació relativa al context</strong></h2>
+
+<h3 id="informació-relativa-al-context"><strong>Informació relativa al context</strong></h3>
+
+<p>En el cas de tractar-se de l&rsquo;evolució d&rsquo;un servei ja existent, en aquest apartat s&rsquo;inclourà el detall de la integració amb serveis externs que en versions anteriors del DA no existien.</p>
+
+<h6 id="inici-taulacontiguts-14"><a href="#TaulaContiguts">Inici</a></h6>
+
+<h2 id="InformacioRelativaSIC"><strong>Informació relativa al SIC</strong></h2>
+
+<h3 id="informació-relativa-al-sic"><strong>Informació relativa al SIC</strong></h3>
+
+<p>Dades específiques d&rsquo;integració amb el SIC que no estiguessin fetes prèviament. Entorns a gestionar per el SIC, l&rsquo;organització de les branques i el detall dels artefactes que el SIC desplegarà.</p>
+
+<h6 id="inici-taulacontiguts-15"><a href="#TaulaContiguts">Inici</a></h6>
+
+<h2 id="InformacioRelativaXarxesDominis"><strong>Informació relativa a xarxes i dominis DNS</strong></h2>
+
+<h3 id="informació-relativa-a-xarxes-i-dominis-dns"><strong>Informació relativa a xarxes i dominis DNS</strong></h3>
+
+<p>Definir aquelles regles de connectivitat que no estaven d&rsquo;alta fins ara. Dominis DNS dels diferents entorns i aquelles pàgines que es volen protegir mitjançant GICAR.</p>
+
+<h6 id="inici-taulacontiguts-16"><a href="#TaulaContiguts">Inici</a></h6>
+
+<h2 id="InformacioRelativaAprovisionamentInfraestructura"><strong>Informació relativa a l&rsquo;aprovisionament d&rsquo;Infraestructura</strong></h2>
+
+<h3 id="informació-relativa-a-l-aprovisionament-d-infraestructura"><strong>Informació relativa a l&rsquo;aprovisionament d&rsquo;Infraestructura</strong></h3>
+
+<p>Ha d&rsquo;estar alineat amb la vista de Desplegament, tot indicant, mitjançant l&rsquo;identificador d&rsquo;instancies, quines es mantenen iguals, quines canvien en les seves característiques i quines son nous aprovisionaments, doncs abans no hi formaven part de la infraestructura.</p>
+
+<h6 id="inici-taulacontiguts-17"><a href="#TaulaContiguts">Inici</a></h6>
+
+<h2 id="EstrategiaMigracio"><strong>Estrategia de Migració</strong></h2>
+
+<h3 id="estrategia-de-migració"><strong>Estrategia de Migració</strong></h3>
+
+
+					
+
+					
+				</div>	
+
+			</article>	
+
+
+	</section>	
+
+		<div class="fons_footer ">
+		<footer class="container center-block shadowBox2">
+			<div class="shadow2"></div>
+			<div class="row footer_tab_ord">
+
+				<div class="footer_tab_bot col-sm-12">
+					<div class="avis_legal">
+
+						<div id="fAvisLegal">
+							<div>
+								<div class="hidden-xs">
+									<a href="https://www.gencat.cat"> <img
+										src="/img/logo_generalitat_gris.png_679097835.png"
+										width="101" height="27" alt="www.gencat.cat"
+										/></a>
+									<p>
+										<a title="Avis legal" href="https://web.gencat.cat/ca/menu-ajuda/ajuda/avis_legal/" target="_self">Avís legal</a>: La &copy; Generalitat de Catalunya permet la reutilització dels continguts i de les dades sempre que se citi la font i la data d'actualització, que no es desnaturalitzi la informació i que no es contradigui amb una llicència específica.
+									</p>
+								</div>
+								<div class="visible-xs avis_legal">
+									<p>
+										<a title="Avis legal" href="https://web.gencat.cat/ca/menu-ajuda/ajuda/avis_legal/" target="_self">Avís legal</a>: La &copy; Generalitat de Catalunya permet la reutilització dels continguts i de les dades sempre que se citi la font i la data d'actualització, que no es desnaturalitzi la informació i que no es contradigui amb una llicència específica.
+									</p>
+								</div>
+								
+								<div class="fi_peu visible-xs">
+									<a title="www.gencat.cat" href="https://www.gencat.cat"> <img
+										src="/img/logo_generalitat_gris.png_679097835.png"
+										width="101" height="27" 
+										alt="www.gencat.cat" /></a> <a class="torna_amunt pull-right"
+										href=" javascript:tornarAmunt();" title="Torna amunt">
+										<p>Torna amunt</p>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+<script src="/js/master.min.js" type="text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+<script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
+<script src="/js/custom.js" type="text/javascript"></script>
+
+
+
+<script type="text/javascript">
+
+if(location.hostname!=="localhost"){
+
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', "UA-59408075-1", 'auto');
+	ga('send', 'pageview', {
+	  	'page': location.pathname + location.search  + location.hash
+	  }
+	);
+
+}
+
+</script>
+
+
+
+
+</body>
+</html>
